@@ -1,0 +1,17 @@
+backlight_compensation=1
+brightness=170
+contrast=40
+exposure_absolute=530
+exposure_auto=1
+exposure_auto_priority=0
+focus_absolute=60
+focus_auto=0
+gain=33
+pan_absolute=0
+power_line_frequency=2
+saturation=75
+sharpness=200
+tilt_absolute=0
+white_balance_temperature=5700
+white_balance_temperature_auto=0
+zoom_absolute=0

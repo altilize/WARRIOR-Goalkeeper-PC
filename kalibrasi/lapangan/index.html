@@ -1,0 +1,172 @@
+<!-- <!doctype html> -->
+<html>
+    <head>
+        <link rel="stylesheet" href="lib\jqueryui.css">
+        <script type="text/javascript" src="lib\jquery.js"></script>
+        <script type="text/javascript" src="lib\jqueryui.js"></script>
+        <title>Kalibrasi</title>
+    </head>
+    <body style="padding:10px;">
+      <input type="text" id="judul" readonly style="border:0; color:#f6931f; font-weight:bold;" />
+      <br />
+      <img src="camera.mjpeg" alt="Smiley face" height="320" width="480">
+      <div>
+          <p>
+              <label for="hue">Hue:</label>
+              <input type="text" id="hue" readonly style="border:0; color:#f6931f; font-weight:bold;" />
+          </p>
+          <div id="hue-slider" style="width:500px;"></div>
+
+          <p>
+              <label for="sat">Saturation:</label>
+              <input type="text" id="sat" readonly style="border:0; color:#f6931f; font-weight:bold;" />
+          </p>
+          <div id="sat-slider" style="width:500px;"></div>
+
+          <p>
+              <label for="val">Value:</label>
+              <input type="text" id="val" readonly style="border:0; color:#f6931f; font-weight:bold;" />
+          </p>
+          <div id="val-slider" style="width:500px;"></div>
+          <br /><br />
+          <button class="ui-button ui-widget ui-corner-all" id="save">Simpan</button>
+          <button class="ui-button ui-widget ui-corner-all" id="change">Ganti kalibrasi</button>
+          <button class="ui-button ui-widget ui-corner-all" id="backup">Backup</button>
+          <button class="ui-button ui-widget ui-corner-all" id="reset">Reset</button>
+          <br/><br/>
+          <button class="ui-button ui-widget ui-corner-all" id="exit">Keluar</button>
+      </div>
+
+      <script type="text/javascript">
+        function sendData(key, value, key2, value2){
+          request  = $.ajax({
+            url:"data.config",
+            type: "post",
+            data: key+"="+value+"&"+key2+"="+value2
+          })
+          request.done(function(response, textStatus){
+
+          });
+        }
+      </script>
+
+      <script>
+        $( function() {
+          var hmn = 0;var hmx = 255;var smn = 0;var smx = 255;var vmn = 0;var vmx = 255;
+          function reloadData(){
+            request  = $.ajax({
+              url:"info",
+              type: "get",
+              data: ""
+            })
+            request.done(function(response, textStatus){
+              setData(response);
+            });
+          }
+
+          function setData(response){
+            var jsonObject = JSON.parse(response);
+            hmn = jsonObject.hmn;hmx = jsonObject.hmx;smn = jsonObject.smn;smx = jsonObject.smx;vmn = jsonObject.vmn;vmx = jsonObject.vmx;
+            $("#judul").val(jsonObject.title);
+            $( "#hue-slider" ).slider("values", [hmn, hmx]);
+            $( "#hue" ).val( "min: "+hmn+ " - max: "+hmx);
+            $( "#sat-slider" ).slider("values", [smn, smx]);
+            $( "#sat" ).val( "min: "+smn+ " - max: "+smx);
+            $( "#val-slider" ).slider("values", [vmn, vmx]);
+            $( "#val" ).val( "min: "+vmn+ " - max: "+vmx);
+          }
+
+          reloadData();
+
+          $("#exit").click(function(e){
+            e.preventDefault();
+            request  = $.ajax({
+              url:"info",
+              type: "post",
+              data: "exit=1"
+            })
+            request.done(function(response, textStatus){
+              // setData(response);
+              setData(response);
+            });
+          });
+
+          $("#save").click(function(e){
+            e.preventDefault();
+            request  = $.ajax({
+              url:"info",
+              type: "post",
+              data: "save=1"
+            })
+            request.done(function(response, textStatus){
+              alert("Tersimpan");
+            });
+          });
+
+          $("#reset").click(function(e){
+            e.preventDefault();
+            request  = $.ajax({
+              url:"info",
+              type: "post",
+              data: "reset=1"
+            })
+            request.done(function(response, textStatus){
+              // setData(response);
+              setData(response);
+            });
+          });
+
+          $("#backup").click(function(e){
+            e.preventDefault();
+            request  = $.ajax({
+              url:"info",
+              type: "post",
+              data: "backup=1"
+            })
+            request.done(function(response, textStatus){
+              alert("Sudah dibackup");
+            });
+          });
+
+          $("#change").click(function(e){
+            e.preventDefault();
+            request  = $.ajax({
+              url:"info",
+              type: "post",
+              data: "switch=1"
+            })
+            request.done(function(response, textStatus){
+              reloadData();
+            });
+          });
+
+          $( "#hue-slider" ).slider({
+            range: true,min: 0,max: 255,values:[hmn, hmx],
+            stop: function(event, ui){
+                $( "#hue" ).val( "min:" + ui.values[ 0 ] + " - max:" + ui.values[ 1 ] );
+                sendData("hmn", ui.values[0], "hmx", ui.values[1]);
+            }
+          });
+          $( "#hue" ).val( "min: "+$( "#hue-slider" ).slider( "values", 0 )+ " - max: "+$( "#hue-slider" ).slider( "values", 1 ));
+
+          $( "#sat-slider" ).slider({
+            range: true,min: 0,max: 255,values:[smn, smx],
+            stop: function(event, ui){
+                $( "#sat" ).val( "min:" + ui.values[ 0 ] + " - max:" + ui.values[ 1 ] );
+                sendData("smn", ui.values[0], "smx", ui.values[1]);
+            }
+          });
+          $( "#sat" ).val( "min: "+$( "#sat-slider" ).slider( "values", 0 )+ " - max: "+$( "#sat-slider" ).slider( "values", 1 ));
+          
+          $( "#val-slider" ).slider({
+            range: true,min: 0,max: 255,values:[vmn, vmx],
+            stop: function(event, ui){
+                $( "#val" ).val( "min:" + ui.values[ 0 ] + " - max:" + ui.values[ 1 ] );
+                sendData("vmn", ui.values[0], "vmx", ui.values[1]);
+            }
+          });
+          $( "#val" ).val( "min: "+$( "#val-slider" ).slider( "values", 0 )+ " - max: "+$( "#val-slider" ).slider( "values", 1 ));
+        } );
+      </script>
+    </body>
+</html>

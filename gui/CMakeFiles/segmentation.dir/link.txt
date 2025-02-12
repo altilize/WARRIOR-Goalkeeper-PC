@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsegmentation.a CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o
+/usr/bin/ranlib libsegmentation.a

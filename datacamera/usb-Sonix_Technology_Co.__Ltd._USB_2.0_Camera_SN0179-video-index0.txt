@@ -1,0 +1,16 @@
+Camera=0
+User=0
+auto_exposure=3
+backlight_compensation=1
+brightness=64
+contrast=14
+exposure_dynamic_framerate=0
+exposure_time_absolute=93
+gain=0
+gamma=112
+hue=0
+power_line_frequency=1
+saturation=105
+sharpness=3
+white_balance_automatic=1
+white_balance_temperature=4600

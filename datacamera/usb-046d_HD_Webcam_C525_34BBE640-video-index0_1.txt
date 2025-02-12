@@ -1,0 +1,17 @@
+backlight_compensation=0
+brightness=133
+contrast=43
+exposure_absolute=665
+exposure_auto=0
+exposure_auto_priority=1
+focus_absolute=41
+focus_auto=0
+gain=255
+pan_absolute=-14
+power_line_frequency=2
+saturation=184
+sharpness=170
+tilt_absolute=-10
+white_balance_temperature=6179
+white_balance_temperature_auto=1
+zoom_absolute=1
