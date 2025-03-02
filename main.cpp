@@ -87,8 +87,17 @@ int catch_heading;
 float b_head;
 int b_head_deg;
 
+// -------------------- Variabel Goalkeeper Entrance -----------------------------
+bool GK_pointplay = false;
+bool GK_start = false;
+bool GK_pla = false;
+bool GK_done = false;
+bool GK_done2 = false;
+// -------------------------------------------------------------------------------
+
 bool Catch = false;
-/////////////////////// Variable Lomba 2024////////////////////////////////
+
+// ========================= Variabel Lomba 2024 ==================================
 bool Koff = false;
 bool Koffenemy = false;
 bool Koffstop = false;
@@ -132,11 +141,11 @@ bool tendangbosq = false;
 float avg_angle = 0, sum_angle = 0, num_angle = 0;
 float kp;
 int konfirm2 = 0;
-///////////////
+// ------------------------------------------------------------------------
 bool mode_1 = false;
 bool mode_2 = false;
 bool mode_3 = false;
-///////////////////////////////////////////////////////////////////////////
+// ------------------------------------------------------------------------
 int posisixobjek = 4;
 int posisiyobjek =  18;
 int posisixobjek2 = 0;
@@ -149,13 +158,15 @@ bool rotation = false;
 bool muter = false;
 bool tendang_gawang = false;
 
-///////////////////////////////testing new pindah grid//////////////////
+// ------------------------- Test Pindah Grid -----------------------------
 
 bool tespindahgrid = true;
 
-//////////////////////////////////////////////////////////////////
+// --------------------------- Fungsi Prototype ----------------------------
 void mode_1_play();
 void mode_2_play();
+// -------------------------------------------------------------------------
+
 void* thread_citra(void* arg) {
     namedWindow("Kamera Depan", WINDOW_AUTOSIZE);
     namedWindow("Kamera Omni", WINDOW_AUTOSIZE);
@@ -190,26 +201,57 @@ void* thread_citra(void* arg) {
         mPcData.HANDLER = 2;
         R2CCitra::deteksi_gawang_depan(frame_depan, frame_gawangDepan, param_gawang, goalAngle, angleFrontEnemy1, centerEnemy, mSTM32Data, avg_angle);
 
-        // printf("grid x: %i grid y: %i dataudp1: %i dataudp2: %i datadup3: %i dataudp: %i\n",posisixobjek,posisiyobjek,dataUDP[0],dataUDP[1],dataUDP[2],dataUDP[3]);
-        // printf("%i state: %i \n",mSTM32Data.BUTTON,rotation);
-        // R2CMotion::sampingkiper(mPcData,mSTM32Data);
-        /////////////////////////////// MODE 1 ///////////////////////////////////////////////
-        mPcData.HEADING = 0;
-        mPcData.KECEPATAN = 100;
-        printf("bola: %i siaptendang: %i tendangbosq: %i tespindahgrid: %i skill: %i \n",mSTM32Data.BOLA,siap_nendang,tendangbosq,tespindahgrid,basestationData.skillRobot);
+        // ==========================================================================
+        // |                        Goalkeeper Entrance                             |
+        // ==========================================================================
+            // ----------- Kalau Gabisa, Gausah Pake Button -----------------------
+            if(mSTM32Data.BUTTON == 1) {
+                GK_Start = true;
+            }
+
+            if(GK_Start) {
+                if(mSTM32Data.GRIDX == 0 && mSTM32Data.GRIDY <= 2) {
+                printf("Majuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu\n");
+                GK_pla = R2CMotion::pindahgrid2(0,2, mSTM32Data,mPcData, 180,150, 1);
+                printf("GK_pla = %i when x = %i  y = %i\n", GK_pla, mSTM32Data.GRIDX, mSTM32Data.GRIDY);
+                } 
+                if(GK_pla){
+                    printf("OTW 3,1\n");
+                    GK_pointplay = R2CMotion::pindahgrid2(9,2,mSTM32Data,mPcData,200,170, 1);
+                    if(GK_pointplay){
+                        printf("Selesai 3,1\n");
+                        GK_done = true;
+                        GK_pla = false;
+                    }
+                }
+                if(GK_done){
+                    printf("OTW 3,0");
+                    GK_done2 = R2CMotion::pindahgrid2(9,0,mSTM32Data, mPcData, 180, 150, 1);
+                    if(GK_done2){
+                        printf("DAH SAMPE");
+                        GK_done = false;
+                        GK_Start = false;
+                    }
+                }
+            }
+            printf("bola: %i siaptendang: %i tendangbosq: %i tespindahgrid: %i skill: %i \n"
+            ,mSTM32Data.BOLA,siap_nendang,tendangbosq,tespindahgrid,basestationData.skillRobot);
+        // ==========================================================================
+        // |                               Mode 1                                   |
+        // ==========================================================================
+        
         if ((basestationData.skillRobot == 3 || mSTM32Data.BUTTON == 1) && reset_mode == true)
         {
-            printf("jalan mas leooooooo");
-            if (!pla)
-            {
-                pla = true;
-                reset_mode = false;
-                // mode_1 = true;
-                tespindahgrid = false;
-            }
-            else{
-                pla = pla;
-            }
+            // if (!pla)
+            // {
+            //     pla = true;
+            //     reset_mode = false;
+            //     // mode_1 = true;
+            //     tespindahgrid = false;
+            // }
+            // else{
+            //     pla = pla;
+            // }
         }
     if(mSTM32Data.BUTTON == 6){
         Catch = true;

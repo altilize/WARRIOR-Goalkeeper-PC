@@ -98,6 +98,7 @@ bool R2CMotion::pindahgrid(int x, int y, STM32Data& mSTM32Data,pcData& mPcData, 
 	mPcData.MOTION=1;
 	mPcData.KECEPATAN=kecepatan;
 	mPcData.HANDLER = 2;
+	R2CMotion::cal
 	mPcData.VZ = 0;
     return false;
 }
@@ -384,13 +385,15 @@ bool R2CMotion::pindahgrid2(int x, int y, STM32Data& mSTM32Data,pcData& mPcData,
     int dx = x - mSTM32Data.GRIDX;
     int dy = y - mSTM32Data.GRIDY;
     int sudut = atan2((dx), (dy)) * 180 / pi;
+	// -------------------------- PID KOMPAS ----------------------------------------
 	if(targetsudut != 0){
-		kp = R2CAlgoritma::calculateOutput(1.0,0,0,targetsudut*-1,mSTM32Data.KOMPAS*-1);
+		kp = R2CAlgoritma::calculateOutput(2,4,0,0,targetsudut*-1,mSTM32Data.KOMPAS*-1);
 		mPcData.VZ = kp;
 		printf("%i\n",mPcData.VZ);
 	}
+	// ------------------------------------------------------------------------------
 	else{
-		kp=0;
+		kp = 0;
 	}
     if (dx == 0 && dy == 0)
 	{
