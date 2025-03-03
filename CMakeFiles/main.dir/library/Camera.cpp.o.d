@@ -1,8 +1,8 @@
 CMakeFiles/main.dir/library/Camera.cpp.o: \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Camera.cpp \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Camera.cpp \
  /usr/include/stdc-predef.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Camera.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/TypeData.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Camera.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/TypeData.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

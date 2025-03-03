@@ -1,7 +1,7 @@
 gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o: \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/src/SegmentationUi.cpp \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/src/SegmentationUi.cpp \
  /usr/include/stdc-predef.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/src/../include/SegmentationUi.hpp \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/src/../include/SegmentationUi.hpp \
  /usr/include/gtkmm-3.0/gtkmm.h /usr/include/glibmm-2.4/glibmm.h \
  /usr/lib/x86_64-linux-gnu/glibmm-2.4/include/glibmmconfig.h \
  /usr/include/glibmm-2.4/glibmm/thread.h /usr/include/glib-2.0/glib.h \
@@ -1608,4 +1608,4 @@ gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o: \
  /usr/local/include/opencv4/opencv2/video.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/src/../include/../../library/TypeData.h
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/src/../include/../../library/TypeData.h

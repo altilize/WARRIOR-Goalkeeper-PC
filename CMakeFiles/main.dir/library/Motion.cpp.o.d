@@ -1,8 +1,8 @@
 CMakeFiles/main.dir/library/Motion.cpp.o: \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Motion.cpp \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Motion.cpp \
  /usr/include/stdc-predef.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Motion.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/TypeData.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Motion.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/TypeData.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -137,7 +137,7 @@ CMakeFiles/main.dir/library/Motion.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Algoritma.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Algoritma.h \
  /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \

@@ -87,17 +87,18 @@ int catch_heading;
 float b_head;
 int b_head_deg;
 
-// -------------------- Variabel Goalkeeper Entrance -----------------------------
-bool GK_pointplay = false;
+bool Catch = false;
+
+// ------------------ Variabel Entrance Kiper ---------------------------
 bool GK_start = false;
 bool GK_pla = false;
 bool GK_done = false;
 bool GK_done2 = false;
-// -------------------------------------------------------------------------------
-
-bool Catch = false;
-
-// ========================= Variabel Lomba 2024 ==================================
+bool GK_pointplay = false;
+bool GK_kanan = false;
+bool GK_kiri = false;
+            
+/////////////////////// Variable Lomba 2024////////////////////////////////
 bool Koff = false;
 bool Koffenemy = false;
 bool Koffstop = false;
@@ -141,11 +142,11 @@ bool tendangbosq = false;
 float avg_angle = 0, sum_angle = 0, num_angle = 0;
 float kp;
 int konfirm2 = 0;
-// ------------------------------------------------------------------------
+///////////////
 bool mode_1 = false;
 bool mode_2 = false;
 bool mode_3 = false;
-// ------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////
 int posisixobjek = 4;
 int posisiyobjek =  18;
 int posisixobjek2 = 0;
@@ -158,15 +159,13 @@ bool rotation = false;
 bool muter = false;
 bool tendang_gawang = false;
 
-// ------------------------- Test Pindah Grid -----------------------------
+///////////////////////////////testing new pindah grid//////////////////
 
 bool tespindahgrid = true;
 
-// --------------------------- Fungsi Prototype ----------------------------
+//////////////////////////////////////////////////////////////////
 void mode_1_play();
 void mode_2_play();
-// -------------------------------------------------------------------------
-
 void* thread_citra(void* arg) {
     namedWindow("Kamera Depan", WINDOW_AUTOSIZE);
     namedWindow("Kamera Omni", WINDOW_AUTOSIZE);
@@ -201,47 +200,74 @@ void* thread_citra(void* arg) {
         mPcData.HANDLER = 2;
         R2CCitra::deteksi_gawang_depan(frame_depan, frame_gawangDepan, param_gawang, goalAngle, angleFrontEnemy1, centerEnemy, mSTM32Data, avg_angle);
 
+        // printf("grid x: %i grid y: %i dataudp1: %i dataudp2: %i datadup3: %i dataudp: %i\n",posisixobjek,posisiyobjek,dataUDP[0],dataUDP[1],dataUDP[2],dataUDP[3]);
+        // printf("%i state: %i \n",mSTM32Data.BUTTON,rotation);
+        // R2CMotion::sampingkiper(mPcData,mSTM32Data);
         // ==========================================================================
         // |                        Goalkeeper Entrance                             |
         // ==========================================================================
             // ----------- Kalau Gabisa, Gausah Pake Button -----------------------
+            //  button 1 = entrance kiper
+            //  button 2 = set grid
+            // --------------------------------------------------------------------
+            printf("Kompas = %d  Grid X = %d  Grid Y = %d\n", mSTM32Data.KOMPAS, mSTM32Data.GRIDX, mSTM32Data.GRIDY);
             if(mSTM32Data.BUTTON == 1) {
-                GK_Start = true;
+                GK_start = true;
             }
 
-            if(GK_Start) {
+            if(GK_start) {
                 if(mSTM32Data.GRIDX == 0 && mSTM32Data.GRIDY <= 2) {
                 printf("Majuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu\n");
-                GK_pla = R2CMotion::pindahgrid2(0,2, mSTM32Data,mPcData, 180,150, 1);
-                printf("GK_pla = %i when x = %i  y = %i\n", GK_pla, mSTM32Data.GRIDX, mSTM32Data.GRIDY);
+                GK_pla = R2CMotion::pindahgrid2(0,2, mSTM32Data,mPcData, 180,150,1);
                 } 
                 if(GK_pla){
-                    printf("OTW 3,1\n");
-                    GK_pointplay = R2CMotion::pindahgrid2(9,2,mSTM32Data,mPcData,200,170, 1);
-                    if(GK_pointplay){
-                        printf("Selesai 3,1\n");
-                        GK_done = true;
-                        GK_pla = false;
-                    }
+                    printf("Maju Selesai OTW 9,2\n");
+                    GK_pointplay = R2CMotion::pindahgrid2(9,2,mSTM32Data,mPcData,180,150,1);
                 }
+                if(GK_pointplay){
+                    printf("Selesai 9,2\n");
+                    GK_pla = false;
+                    GK_done = true;
+                }                
                 if(GK_done){
-                    printf("OTW 3,0");
-                    GK_done2 = R2CMotion::pindahgrid2(9,0,mSTM32Data, mPcData, 180, 150, 1);
-                    if(GK_done2){
-                        printf("DAH SAMPE");
-                        GK_done = false;
-                        GK_Start = false;
-                    }
+                    GK_pointplay = false;
+                    printf("OTW 9,0\n");
+                    GK_done2 = R2CMotion::pindahgrid2(9,0,mSTM32Data, mPcData, 180, 150,1);
                 }
+                if(GK_done2){
+                    GK_done = false;
+                // -------------------------- Belum di Coba --------------------------------------
+                    printf("otw Kanan");
+                    GK_kanan = R2CMotion::pindahgrid2(11,0,mSTM32Data, mPcData, 200,150, 1);
+
+                // ------------------------------------------------------------------------------
+                    // printf("DAH SAMPE");
+                    // GK_done = false;
+                    // GK_start = false;
+                }
+                if(GK_kanan) {
+                    GK_done2 = false;
+                    printf(" OTW Kiri");
+                    GK_kiri = R2CMotion::pindahgrid2(7, 0, mSTM32Data, mPcData, 180, 150, 1);
+                     // Start sama Done biarin true
+                }
+                if(GK_kiri) {
+                    printf("IF GK_Kiri");
+                    GK_kanan = false;
+                    GK_done2 = true;
+                }  
             }
-            printf("bola: %i siaptendang: %i tendangbosq: %i tespindahgrid: %i skill: %i \n"
-            ,mSTM32Data.BOLA,siap_nendang,tendangbosq,tespindahgrid,basestationData.skillRobot);
-        // ==========================================================================
-        // |                               Mode 1                                   |
-        // ==========================================================================
+            // ------------------------------ BNN ( Bagian Ngedebug - ngedebug) --------------------
+            // ,mSTM32Data.BOLA,siap_nendang,tendangbosq,tespindahgrid,basestationData.skillRobot);
+            //printf("Button = %i  Kompas = %i  Grid X = %i  Grid Y = %i \n", mSTM32Data.BUTTON, mSTM32Data.KOMPAS, mSTM32Data.GRIDX, mSTM32Data.GRIDY);
         
+        /////////////////////////////// MODE 1 ///////////////////////////////////////////////
+        // mPcData.HEADING = 0;
+        // mPcData.KECEPATAN = 100;
+        //printf("bola: %i siaptendang: %i tendangbosq: %i tespindahgrid: %i skill: %i \n",mSTM32Data.BOLA,siap_nendang,tendangbosq,tespindahgrid,basestationData.skillRobot);
         if ((basestationData.skillRobot == 3 || mSTM32Data.BUTTON == 1) && reset_mode == true)
         {
+            // printf("jalan mas leooooooo");
             // if (!pla)
             // {
             //     pla = true;
@@ -323,7 +349,14 @@ void* thread_citra(void* arg) {
             }
             mPcData.VZ = kp;
         }
-        
+        // if(reset_mode){
+		//     if(mSTM32Data.KOMPAS<85 || mSTM32Data.KOMPAS>95){
+		//         mPcData.VZ = (-90+mSTM32Data.KOMPAS);
+	    //     }
+        //     else{
+        //         R2CMotion::pindahgrid(1,16,mSTM32Data,mPcData,150,100);
+        //     }
+        // }
         if(mSTM32Data.BUTTON == 5){
             tes_hadap = false;
         }
@@ -333,7 +366,12 @@ void* thread_citra(void* arg) {
 
         if(mSTM32Data.BUTTON == 2){
             // R2CMotion::setgrid(mPcData,1,16,16,90);//roda 4
-            R2CMotion::setgrid(mPcData,1,1,16,-90);
+            R2CMotion::setgrid(mPcData,1,0,0,1);
+            GK_done2 = false;
+            GK_done = false;
+            GK_pla = false;
+            GK_pointplay = false;
+            GK_pointplay = false;
             // R2CMotion::setgrid(mPcData,0,16,8,0);
             printf("grid set\n");
         }

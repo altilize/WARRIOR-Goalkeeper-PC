@@ -1,8 +1,8 @@
 CMakeFiles/main.dir/library/Algoritma.cpp.o: \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Algoritma.cpp \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Algoritma.cpp \
  /usr/include/stdc-predef.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Algoritma.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/TypeData.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Algoritma.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/TypeData.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -350,7 +350,7 @@ CMakeFiles/main.dir/library/Algoritma.cpp.o: \
  /usr/local/include/opencv4/opencv2/video.hpp \
  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Motion.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Motion.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \

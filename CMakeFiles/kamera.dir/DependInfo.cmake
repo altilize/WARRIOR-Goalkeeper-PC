@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/moses/Main/WARRIOR/r2cwarrioratomic/gui/KalibrasiKamera.cpp" "CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o" "gcc" "CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o.d"
-  "/home/moses/Main/WARRIOR/r2cwarrioratomic/gui/PilihKamera.cpp" "CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o" "gcc" "CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o.d"
-  "/home/moses/Main/WARRIOR/r2cwarrioratomic/kamera.cpp" "CMakeFiles/kamera.dir/kamera.cpp.o" "gcc" "CMakeFiles/kamera.dir/kamera.cpp.o.d"
-  "/home/moses/Main/WARRIOR/r2cwarrioratomic/library/Camera.cpp" "CMakeFiles/kamera.dir/library/Camera.cpp.o" "gcc" "CMakeFiles/kamera.dir/library/Camera.cpp.o.d"
+  "/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.cpp" "CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o" "gcc" "CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o.d"
+  "/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/PilihKamera.cpp" "CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o" "gcc" "CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o.d"
+  "/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/kamera.cpp" "CMakeFiles/kamera.dir/kamera.cpp.o" "gcc" "CMakeFiles/kamera.dir/kamera.cpp.o.d"
+  "/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Camera.cpp" "CMakeFiles/kamera.dir/library/Camera.cpp.o" "gcc" "CMakeFiles/kamera.dir/library/Camera.cpp.o.d"
   )
 
 # Targets to which this target links.

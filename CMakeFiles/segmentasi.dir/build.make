@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moses/Main/WARRIOR/r2cwarrioratomic
+CMAKE_SOURCE_DIR = /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moses/Main/WARRIOR/r2cwarrioratomic
+CMAKE_BINARY_DIR = /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC
 
 # Include any dependencies generated for this target.
 include CMakeFiles/segmentasi.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/segmentasi.dir/flags.make
 CMakeFiles/segmentasi.dir/segmentasi.cpp.o: CMakeFiles/segmentasi.dir/flags.make
 CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp
 CMakeFiles/segmentasi.dir/segmentasi.cpp.o: CMakeFiles/segmentasi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/segmentasi.dir/segmentasi.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/segmentasi.dir/segmentasi.cpp.o -MF CMakeFiles/segmentasi.dir/segmentasi.cpp.o.d -o CMakeFiles/segmentasi.dir/segmentasi.cpp.o -c /home/moses/Main/WARRIOR/r2cwarrioratomic/segmentasi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/segmentasi.dir/segmentasi.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/segmentasi.dir/segmentasi.cpp.o -MF CMakeFiles/segmentasi.dir/segmentasi.cpp.o.d -o CMakeFiles/segmentasi.dir/segmentasi.cpp.o -c /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/segmentasi.cpp
 
 CMakeFiles/segmentasi.dir/segmentasi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/segmentasi.dir/segmentasi.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/r2cwarrioratomic/segmentasi.cpp > CMakeFiles/segmentasi.dir/segmentasi.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/segmentasi.cpp > CMakeFiles/segmentasi.dir/segmentasi.cpp.i
 
 CMakeFiles/segmentasi.dir/segmentasi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/segmentasi.dir/segmentasi.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/r2cwarrioratomic/segmentasi.cpp -o CMakeFiles/segmentasi.dir/segmentasi.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/segmentasi.cpp -o CMakeFiles/segmentasi.dir/segmentasi.cpp.s
 
 CMakeFiles/segmentasi.dir/library/Camera.cpp.o: CMakeFiles/segmentasi.dir/flags.make
 CMakeFiles/segmentasi.dir/library/Camera.cpp.o: library/Camera.cpp
 CMakeFiles/segmentasi.dir/library/Camera.cpp.o: CMakeFiles/segmentasi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/segmentasi.dir/library/Camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/segmentasi.dir/library/Camera.cpp.o -MF CMakeFiles/segmentasi.dir/library/Camera.cpp.o.d -o CMakeFiles/segmentasi.dir/library/Camera.cpp.o -c /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/segmentasi.dir/library/Camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/segmentasi.dir/library/Camera.cpp.o -MF CMakeFiles/segmentasi.dir/library/Camera.cpp.o.d -o CMakeFiles/segmentasi.dir/library/Camera.cpp.o -c /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Camera.cpp
 
 CMakeFiles/segmentasi.dir/library/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/segmentasi.dir/library/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Camera.cpp > CMakeFiles/segmentasi.dir/library/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Camera.cpp > CMakeFiles/segmentasi.dir/library/Camera.cpp.i
 
 CMakeFiles/segmentasi.dir/library/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/segmentasi.dir/library/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Camera.cpp -o CMakeFiles/segmentasi.dir/library/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Camera.cpp -o CMakeFiles/segmentasi.dir/library/Camera.cpp.s
 
 CMakeFiles/segmentasi.dir/library/Citra.cpp.o: CMakeFiles/segmentasi.dir/flags.make
 CMakeFiles/segmentasi.dir/library/Citra.cpp.o: library/Citra.cpp
 CMakeFiles/segmentasi.dir/library/Citra.cpp.o: CMakeFiles/segmentasi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/segmentasi.dir/library/Citra.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/segmentasi.dir/library/Citra.cpp.o -MF CMakeFiles/segmentasi.dir/library/Citra.cpp.o.d -o CMakeFiles/segmentasi.dir/library/Citra.cpp.o -c /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Citra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/segmentasi.dir/library/Citra.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/segmentasi.dir/library/Citra.cpp.o -MF CMakeFiles/segmentasi.dir/library/Citra.cpp.o.d -o CMakeFiles/segmentasi.dir/library/Citra.cpp.o -c /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Citra.cpp
 
 CMakeFiles/segmentasi.dir/library/Citra.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/segmentasi.dir/library/Citra.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Citra.cpp > CMakeFiles/segmentasi.dir/library/Citra.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Citra.cpp > CMakeFiles/segmentasi.dir/library/Citra.cpp.i
 
 CMakeFiles/segmentasi.dir/library/Citra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/segmentasi.dir/library/Citra.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Citra.cpp -o CMakeFiles/segmentasi.dir/library/Citra.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Citra.cpp -o CMakeFiles/segmentasi.dir/library/Citra.cpp.s
 
 # Object files for target segmentasi
 segmentasi_OBJECTS = \
@@ -141,7 +141,7 @@ segmentasi: /usr/local/lib/libopencv_imgcodecs.so.4.10.0
 segmentasi: /usr/local/lib/libopencv_imgproc.so.4.10.0
 segmentasi: /usr/local/lib/libopencv_core.so.4.10.0
 segmentasi: CMakeFiles/segmentasi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable segmentasi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable segmentasi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/segmentasi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/segmentasi.dir/clean:
 .PHONY : CMakeFiles/segmentasi.dir/clean
 
 CMakeFiles/segmentasi.dir/depend:
-	cd /home/moses/Main/WARRIOR/r2cwarrioratomic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moses/Main/WARRIOR/r2cwarrioratomic /home/moses/Main/WARRIOR/r2cwarrioratomic /home/moses/Main/WARRIOR/r2cwarrioratomic /home/moses/Main/WARRIOR/r2cwarrioratomic /home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles/segmentasi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles/segmentasi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/segmentasi.dir/depend
 

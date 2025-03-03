@@ -1,5 +1,5 @@
 CMakeFiles/kamera.dir/kamera.cpp.o: \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/kamera.cpp \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/kamera.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -247,9 +247,9 @@ CMakeFiles/kamera.dir/kamera.cpp.o: \
  /usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp \
  /usr/local/include/opencv4/opencv2/imgproc.hpp \
  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/TypeData.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Camera.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/TypeData.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/TypeData.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Camera.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/TypeData.h \
  /usr/include/gtkmm-3.0/gtkmm.h /usr/include/glibmm-2.4/glibmm.h \
  /usr/lib/x86_64-linux-gnu/glibmm-2.4/include/glibmmconfig.h \
  /usr/include/glibmm-2.4/glibmm/thread.h /usr/include/glib-2.0/glib.h \
@@ -1501,9 +1501,9 @@ CMakeFiles/kamera.dir/kamera.cpp.o: \
  /usr/include/gtkmm-3.0/gtkmm/uimanager.h \
  /usr/include/gtkmm-3.0/gtkmm/viewport.h \
  /usr/include/gtkmm-3.0/gtkmm/volumebutton.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/PilihKamera.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/../library/TypeData.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/KalibrasiKamera.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/PilihKamera.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/../library/TypeData.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.h \
  /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/calib3d.hpp \
  /usr/local/include/opencv4/opencv2/features2d.hpp \

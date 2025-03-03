@@ -1,7 +1,7 @@
 CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o: \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/PilihKamera.cpp \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/PilihKamera.cpp \
  /usr/include/stdc-predef.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/PilihKamera.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/PilihKamera.h \
  /usr/include/gtkmm-3.0/gtkmm.h /usr/include/glibmm-2.4/glibmm.h \
  /usr/lib/x86_64-linux-gnu/glibmm-2.4/include/glibmmconfig.h \
  /usr/include/glibmm-2.4/glibmm/thread.h /usr/include/glib-2.0/glib.h \
@@ -1454,5 +1454,5 @@ CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o: \
  /usr/include/gtkmm-3.0/gtkmm/uimanager.h \
  /usr/include/gtkmm-3.0/gtkmm/viewport.h \
  /usr/include/gtkmm-3.0/gtkmm/volumebutton.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/../library/TypeData.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/../library/TypeData.h \
  /usr/include/c++/11/iostream

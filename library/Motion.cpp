@@ -98,8 +98,9 @@ bool R2CMotion::pindahgrid(int x, int y, STM32Data& mSTM32Data,pcData& mPcData, 
 	mPcData.MOTION=1;
 	mPcData.KECEPATAN=kecepatan;
 	mPcData.HANDLER = 2;
-	R2CMotion::cal
-	mPcData.VZ = 0;
+	//R2CMotion::cal
+	int kp = R2CAlgoritma::calculateOutput(1,0,0, 1, mSTM32Data.KOMPAS*-1);
+	mPcData.VZ = kp;
     return false;
 }
 
@@ -339,7 +340,7 @@ bool R2CMotion::sampingkiper(pcData& mPcData, STM32Data& mSTM32Data){
 	mPcData.HEADING = 90;
 	
 	mPcData.KECEPATAN = 100;
-	int kp = R2CAlgoritma::calculateOutput(1.4,0,0,0,mSTM32Data.KOMPAS*-1);
+	int kp = R2CAlgoritma::calculateOutput(1,4,0,0,mSTM32Data.KOMPAS*-1);
 	mPcData.VZ = kp;
 	printf("%i\n",mPcData.VZ);
 	return false;
@@ -387,7 +388,7 @@ bool R2CMotion::pindahgrid2(int x, int y, STM32Data& mSTM32Data,pcData& mPcData,
     int sudut = atan2((dx), (dy)) * 180 / pi;
 	// -------------------------- PID KOMPAS ----------------------------------------
 	if(targetsudut != 0){
-		kp = R2CAlgoritma::calculateOutput(2,4,0,0,targetsudut*-1,mSTM32Data.KOMPAS*-1);
+		kp = R2CAlgoritma::calculateOutput(1,0,0, targetsudut*-1,mSTM32Data.KOMPAS*-1);
 		mPcData.VZ = kp;
 		printf("%i\n",mPcData.VZ);
 	}

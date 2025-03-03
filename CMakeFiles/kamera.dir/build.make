@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moses/Main/WARRIOR/r2cwarrioratomic
+CMAKE_SOURCE_DIR = /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moses/Main/WARRIOR/r2cwarrioratomic
+CMAKE_BINARY_DIR = /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC
 
 # Include any dependencies generated for this target.
 include CMakeFiles/kamera.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/kamera.dir/flags.make
 CMakeFiles/kamera.dir/kamera.cpp.o: CMakeFiles/kamera.dir/flags.make
 CMakeFiles/kamera.dir/kamera.cpp.o: kamera.cpp
 CMakeFiles/kamera.dir/kamera.cpp.o: CMakeFiles/kamera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kamera.dir/kamera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kamera.dir/kamera.cpp.o -MF CMakeFiles/kamera.dir/kamera.cpp.o.d -o CMakeFiles/kamera.dir/kamera.cpp.o -c /home/moses/Main/WARRIOR/r2cwarrioratomic/kamera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kamera.dir/kamera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kamera.dir/kamera.cpp.o -MF CMakeFiles/kamera.dir/kamera.cpp.o.d -o CMakeFiles/kamera.dir/kamera.cpp.o -c /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/kamera.cpp
 
 CMakeFiles/kamera.dir/kamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kamera.dir/kamera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/r2cwarrioratomic/kamera.cpp > CMakeFiles/kamera.dir/kamera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/kamera.cpp > CMakeFiles/kamera.dir/kamera.cpp.i
 
 CMakeFiles/kamera.dir/kamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kamera.dir/kamera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/r2cwarrioratomic/kamera.cpp -o CMakeFiles/kamera.dir/kamera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/kamera.cpp -o CMakeFiles/kamera.dir/kamera.cpp.s
 
 CMakeFiles/kamera.dir/library/Camera.cpp.o: CMakeFiles/kamera.dir/flags.make
 CMakeFiles/kamera.dir/library/Camera.cpp.o: library/Camera.cpp
 CMakeFiles/kamera.dir/library/Camera.cpp.o: CMakeFiles/kamera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kamera.dir/library/Camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kamera.dir/library/Camera.cpp.o -MF CMakeFiles/kamera.dir/library/Camera.cpp.o.d -o CMakeFiles/kamera.dir/library/Camera.cpp.o -c /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kamera.dir/library/Camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kamera.dir/library/Camera.cpp.o -MF CMakeFiles/kamera.dir/library/Camera.cpp.o.d -o CMakeFiles/kamera.dir/library/Camera.cpp.o -c /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Camera.cpp
 
 CMakeFiles/kamera.dir/library/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kamera.dir/library/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Camera.cpp > CMakeFiles/kamera.dir/library/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Camera.cpp > CMakeFiles/kamera.dir/library/Camera.cpp.i
 
 CMakeFiles/kamera.dir/library/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kamera.dir/library/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/r2cwarrioratomic/library/Camera.cpp -o CMakeFiles/kamera.dir/library/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Camera.cpp -o CMakeFiles/kamera.dir/library/Camera.cpp.s
 
 CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o: CMakeFiles/kamera.dir/flags.make
 CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o: gui/PilihKamera.cpp
 CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o: CMakeFiles/kamera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o -MF CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o.d -o CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o -c /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/PilihKamera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o -MF CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o.d -o CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o -c /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/PilihKamera.cpp
 
 CMakeFiles/kamera.dir/gui/PilihKamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kamera.dir/gui/PilihKamera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/PilihKamera.cpp > CMakeFiles/kamera.dir/gui/PilihKamera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/PilihKamera.cpp > CMakeFiles/kamera.dir/gui/PilihKamera.cpp.i
 
 CMakeFiles/kamera.dir/gui/PilihKamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kamera.dir/gui/PilihKamera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/PilihKamera.cpp -o CMakeFiles/kamera.dir/gui/PilihKamera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/PilihKamera.cpp -o CMakeFiles/kamera.dir/gui/PilihKamera.cpp.s
 
 CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o: CMakeFiles/kamera.dir/flags.make
 CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o: gui/KalibrasiKamera.cpp
 CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o: CMakeFiles/kamera.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o -MF CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o.d -o CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o -c /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/KalibrasiKamera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o -MF CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o.d -o CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o -c /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.cpp
 
 CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/KalibrasiKamera.cpp > CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.cpp > CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.i
 
 CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/KalibrasiKamera.cpp -o CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.cpp -o CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.s
 
 # Object files for target kamera
 kamera_OBJECTS = \
@@ -156,7 +156,7 @@ kamera: /usr/local/lib/libopencv_flann.so.4.10.0
 kamera: /usr/local/lib/libopencv_imgproc.so.4.10.0
 kamera: /usr/local/lib/libopencv_core.so.4.10.0
 kamera: CMakeFiles/kamera.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable kamera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable kamera"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kamera.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/kamera.dir/clean:
 .PHONY : CMakeFiles/kamera.dir/clean
 
 CMakeFiles/kamera.dir/depend:
-	cd /home/moses/Main/WARRIOR/r2cwarrioratomic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moses/Main/WARRIOR/r2cwarrioratomic /home/moses/Main/WARRIOR/r2cwarrioratomic /home/moses/Main/WARRIOR/r2cwarrioratomic /home/moses/Main/WARRIOR/r2cwarrioratomic /home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles/kamera.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles/kamera.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kamera.dir/depend
 

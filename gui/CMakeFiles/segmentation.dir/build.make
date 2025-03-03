@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moses/Main/WARRIOR/r2cwarrioratomic
+CMAKE_SOURCE_DIR = /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moses/Main/WARRIOR/r2cwarrioratomic
+CMAKE_BINARY_DIR = /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC
 
 # Include any dependencies generated for this target.
 include gui/CMakeFiles/segmentation.dir/depend.make
@@ -72,16 +72,16 @@ include gui/CMakeFiles/segmentation.dir/flags.make
 gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o: gui/CMakeFiles/segmentation.dir/flags.make
 gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o: gui/src/SegmentationUi.cpp
 gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o: gui/CMakeFiles/segmentation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o"
-	cd /home/moses/Main/WARRIOR/r2cwarrioratomic/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o -MF CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o.d -o CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o -c /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/src/SegmentationUi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o"
+	cd /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o -MF CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o.d -o CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o -c /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/src/SegmentationUi.cpp
 
 gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.i"
-	cd /home/moses/Main/WARRIOR/r2cwarrioratomic/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/src/SegmentationUi.cpp > CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.i
+	cd /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/src/SegmentationUi.cpp > CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.i
 
 gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.s"
-	cd /home/moses/Main/WARRIOR/r2cwarrioratomic/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/src/SegmentationUi.cpp -o CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.s
+	cd /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/src/SegmentationUi.cpp -o CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.s
 
 # Object files for target segmentation
 segmentation_OBJECTS = \
@@ -93,19 +93,19 @@ segmentation_EXTERNAL_OBJECTS =
 gui/libsegmentation.a: gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o
 gui/libsegmentation.a: gui/CMakeFiles/segmentation.dir/build.make
 gui/libsegmentation.a: gui/CMakeFiles/segmentation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moses/Main/WARRIOR/r2cwarrioratomic/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsegmentation.a"
-	cd /home/moses/Main/WARRIOR/r2cwarrioratomic/gui && $(CMAKE_COMMAND) -P CMakeFiles/segmentation.dir/cmake_clean_target.cmake
-	cd /home/moses/Main/WARRIOR/r2cwarrioratomic/gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/segmentation.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsegmentation.a"
+	cd /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui && $(CMAKE_COMMAND) -P CMakeFiles/segmentation.dir/cmake_clean_target.cmake
+	cd /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/segmentation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 gui/CMakeFiles/segmentation.dir/build: gui/libsegmentation.a
 .PHONY : gui/CMakeFiles/segmentation.dir/build
 
 gui/CMakeFiles/segmentation.dir/clean:
-	cd /home/moses/Main/WARRIOR/r2cwarrioratomic/gui && $(CMAKE_COMMAND) -P CMakeFiles/segmentation.dir/cmake_clean.cmake
+	cd /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui && $(CMAKE_COMMAND) -P CMakeFiles/segmentation.dir/cmake_clean.cmake
 .PHONY : gui/CMakeFiles/segmentation.dir/clean
 
 gui/CMakeFiles/segmentation.dir/depend:
-	cd /home/moses/Main/WARRIOR/r2cwarrioratomic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moses/Main/WARRIOR/r2cwarrioratomic /home/moses/Main/WARRIOR/r2cwarrioratomic/gui /home/moses/Main/WARRIOR/r2cwarrioratomic /home/moses/Main/WARRIOR/r2cwarrioratomic/gui /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/CMakeFiles/segmentation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/CMakeFiles/segmentation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gui/CMakeFiles/segmentation.dir/depend
 

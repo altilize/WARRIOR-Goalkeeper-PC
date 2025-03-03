@@ -1,5 +1,5 @@
 CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o: \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/KalibrasiKamera.cpp \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.cpp \
  /usr/include/stdc-predef.h /usr/include/gtkmm-3.0/gtkmm.h \
  /usr/include/glibmm-2.4/glibmm.h \
  /usr/lib/x86_64-linux-gnu/glibmm-2.4/include/glibmmconfig.h \
@@ -1453,9 +1453,9 @@ CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o: \
  /usr/include/gtkmm-3.0/gtkmm/uimanager.h \
  /usr/include/gtkmm-3.0/gtkmm/viewport.h \
  /usr/include/gtkmm-3.0/gtkmm/volumebutton.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/../library/TypeData.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/../library/TypeData.h \
  /usr/include/c++/11/iostream \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/gui/KalibrasiKamera.h \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.h \
  /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \

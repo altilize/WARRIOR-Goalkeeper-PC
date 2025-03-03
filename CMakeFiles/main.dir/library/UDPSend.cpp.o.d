@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/library/UDPSend.cpp.o: \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/UDPSend.cpp \
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/UDPSend.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -85,4 +85,4 @@ CMakeFiles/main.dir/library/UDPSend.cpp.o: \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/x86_64-linux-gnu/bits/in.h \
- /home/moses/Main/WARRIOR/r2cwarrioratomic/library/UDPSend.h
+ /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/UDPSend.h

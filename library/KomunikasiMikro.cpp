@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <iostream>
 
-char USBSTM32[] = {"/dev/ttyACM1"};
+char USBSTM32[] = {"/dev/ttyACM0"};
 int total_checksum = 0;
 unsigned char dataaaserial[20];
 

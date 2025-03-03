@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/moses/Main/WARRIOR/r2cwarrioratomic/gui/src/SegmentationUi.cpp" "gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o" "gcc" "gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o.d"
+  "/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/src/SegmentationUi.cpp" "gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o" "gcc" "gui/CMakeFiles/segmentation.dir/src/SegmentationUi.cpp.o.d"
   )
 
 # Targets to which this target links.
