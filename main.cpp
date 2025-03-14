@@ -16,6 +16,11 @@
 #include "library/InisiasiSerial.h"
 #include "library/Motion.h"
 
+// ----------------- Logging ----------------------------------- //
+#include <fstream>
+#include <ctime>
+// ------------------------------------------------------------- //
+
 #define CITRA
 #define KOMUNIKASI
 
@@ -89,7 +94,7 @@ int b_head_deg;
 
 bool Catch = false;
 
-// ------------------ Variabel Entrance Kiper ---------------------------
+// ------------------ Variabel Entrance Kiper --------------------------- //
 bool GK_start = false;
 bool GK_pla = false;
 bool GK_done = false;
@@ -98,7 +103,7 @@ bool GK_pointplay = false;
 bool GK_kanan = false;
 bool GK_kiri = false;
             
-/////////////////////// Variable Lomba 2024////////////////////////////////
+// ----------------- Variabel Lomba 2024 ------------------------------- //
 bool Koff = false;
 bool Koffenemy = false;
 bool Koffstop = false;
@@ -142,11 +147,11 @@ bool tendangbosq = false;
 float avg_angle = 0, sum_angle = 0, num_angle = 0;
 float kp;
 int konfirm2 = 0;
-///////////////
+// -------------------------------------------------------------------- //
 bool mode_1 = false;
 bool mode_2 = false;
 bool mode_3 = false;
-///////////////////////////////////////////////////////////////////////////
+// ------------------------------------------------------------------- //
 int posisixobjek = 4;
 int posisiyobjek =  18;
 int posisixobjek2 = 0;
@@ -163,9 +168,16 @@ bool tendang_gawang = false;
 
 bool tespindahgrid = true;
 
-//////////////////////////////////////////////////////////////////
+// --------------------- Prototype Function ---------- //
 void mode_1_play();
 void mode_2_play();
+string getCurrentDate();
+string getCurrentTime();
+string getLogFileName();
+void logWrite(const std::string& logMessage);
+
+
+// ====================================== Thread Citra ================================== //
 void* thread_citra(void* arg) {
     namedWindow("Kamera Depan", WINDOW_AUTOSIZE);
     namedWindow("Kamera Omni", WINDOW_AUTOSIZE);
@@ -211,17 +223,21 @@ void* thread_citra(void* arg) {
             //  button 2 = set grid
             // --------------------------------------------------------------------
             printf("Kompas = %d  Grid X = %d  Grid Y = %d\n", mSTM32Data.KOMPAS, mSTM32Data.GRIDX, mSTM32Data.GRIDY);
+            //logToFile("Kompas = " + to_string(mSTM32Data.KOMPAS));
             if(mSTM32Data.BUTTON == 1) {
                 GK_start = true;
+                logWrite("MASUK MODE GK ENTRANCE");
             }
 
             if(GK_start) {
                 if(mSTM32Data.GRIDX == 0 && mSTM32Data.GRIDY <= 2) {
                 printf("Majuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu\n");
+                logWrite("Grid X : " + to_string(mSTM32Data.GRIDX) + "  Grid Y : " + to_string(mSTM32Data.GRIDY) + "  STATUS GK_pla : " + to_string(GK_pla));
                 GK_pla = R2CMotion::pindahgrid2(0,2, mSTM32Data,mPcData, 180,150,1);
                 } 
                 if(GK_pla){
                     printf("Maju Selesai OTW 9,2\n");
+                    logWrite("Grid X : " + to_string(mSTM32Data.GRIDX) + "  Grid Y : " + to_string(mSTM32Data.GRIDY) + "  STATUS GK_pointplay : " + to_string(GK_pointplay));
                     GK_pointplay = R2CMotion::pindahgrid2(9,2,mSTM32Data,mPcData,180,150,1);
                 }
                 if(GK_pointplay){
@@ -736,7 +752,49 @@ int main() {
     pthread_join(receive_thread, NULL);
     return 0;
 }
+// ===================== Logging ======================= //
+// ----------- format YYYY-MM-DD ----------- //
+std::string getCurrentDate() {
+    time_t now = time(0);
+    tm *ltm = localtime(&now);
+    
+    char dateStr[20];
+    strftime(dateStr, sizeof(dateStr), "%Y-%m-%d", ltm);
+    
+    return std::string(dateStr);
+}
+// ----------- format YYYY-MM-DD HH:MM:SS ------ //
+std::string getCurrentTime() {
+    time_t now = time(0);
+    tm *ltm = localtime(&now);
+    
+    char timeStr[20];
+    strftime(timeStr, sizeof(timeStr), "%Y-%m-%d %H:%M:%S", ltm);
+    
+    return std::string(timeStr);
+}
 
+// ---------- nama file log berdasarkan tanggal ------- //
+//            harus udah ada directory logging          //
+std::string getLogFileName() {
+    return "logging/log_" + getCurrentDate() + ".txt";
+}
+// ---------- Menulis Log File ----------------------- //
+void logWrite(const std::string& logMessage) {
+    std::string logFileName = getLogFileName();
+
+    std::ofstream logFile;
+    logFile.open(logFileName, std::ios_base::app);  // Buka file dalam mode append
+    
+    if (logFile.is_open()) {
+        logFile << getCurrentTime() << " - " << logMessage << std::endl;
+        logFile.close();
+    } else {
+        std::cerr << "Gagal membuka file log!" << std::endl;
+    }
+}
+
+// ========================================================== //
 void mode_1_play(){
     if(pla){
         // pointplay = R2CMotion::pindahgrid(12,12,mSTM32Data,mPcData,12,9); //roda4
