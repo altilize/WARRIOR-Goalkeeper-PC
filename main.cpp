@@ -164,8 +164,6 @@ bool rotation = false;
 bool muter = false;
 bool tendang_gawang = false;
 
-///////////////////////////////testing new pindah grid//////////////////
-
 bool tespindahgrid = true;
 
 // --------------------- Prototype Function ---------- //
@@ -212,9 +210,6 @@ void* thread_citra(void* arg) {
         mPcData.HANDLER = 2;
         R2CCitra::deteksi_gawang_depan(frame_depan, frame_gawangDepan, param_gawang, goalAngle, angleFrontEnemy1, centerEnemy, mSTM32Data, avg_angle);
 
-        // printf("grid x: %i grid y: %i dataudp1: %i dataudp2: %i datadup3: %i dataudp: %i\n",posisixobjek,posisiyobjek,dataUDP[0],dataUDP[1],dataUDP[2],dataUDP[3]);
-        // printf("%i state: %i \n",mSTM32Data.BUTTON,rotation);
-        // R2CMotion::sampingkiper(mPcData,mSTM32Data);
         // ==========================================================================
         // |                        Goalkeeper Entrance                             |
         // ==========================================================================
@@ -223,7 +218,6 @@ void* thread_citra(void* arg) {
             //  button 2 = set grid
             // --------------------------------------------------------------------
             printf("Kompas = %d  Grid X = %d  Grid Y = %d\n", mSTM32Data.KOMPAS, mSTM32Data.GRIDX, mSTM32Data.GRIDY);
-            //logToFile("Kompas = " + to_string(mSTM32Data.KOMPAS));
             if(mSTM32Data.BUTTON == 1) {
                 GK_start = true;
                 logWrite("MASUK MODE GK ENTRANCE");
@@ -234,6 +228,7 @@ void* thread_citra(void* arg) {
                 printf("Majuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu\n");
                 logWrite("Grid X : " + to_string(mSTM32Data.GRIDX) + "  Grid Y : " + to_string(mSTM32Data.GRIDY) + "  STATUS GK_pla : " + to_string(GK_pla));
                 GK_pla = R2CMotion::pindahgrid2(0,2, mSTM32Data,mPcData, 180,150,1);
+                //GK_Awal = R2CMotion::pindahgrid2(0,2, mSTM32Data,mPcData, 180,150,1);
                 } 
                 if(GK_pla){
                     printf("Maju Selesai OTW 9,2\n");
@@ -259,7 +254,7 @@ void* thread_citra(void* arg) {
                 // ------------------------------------------------------------------------------
                     // printf("DAH SAMPE");
                     // GK_done = false;
-                    // GK_start = false;
+                    // GK_start = false; uncomment kalau mau diam setelah sampe gawang
                 }
                 if(GK_kanan) {
                     GK_done2 = false;
@@ -276,6 +271,23 @@ void* thread_citra(void* arg) {
             // ------------------------------ BNN ( Bagian Ngedebug - ngedebug) --------------------
             // ,mSTM32Data.BOLA,siap_nendang,tendangbosq,tespindahgrid,basestationData.skillRobot);
             //printf("Button = %i  Kompas = %i  Grid X = %i  Grid Y = %i \n", mSTM32Data.BUTTON, mSTM32Data.KOMPAS, mSTM32Data.GRIDX, mSTM32Data.GRIDY);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
         /////////////////////////////// MODE 1 ///////////////////////////////////////////////
         // mPcData.HEADING = 0;
@@ -728,11 +740,11 @@ int main() {
         return 1;
     }
 
-    pthread_t komunikasi_thread;
-    if (pthread_create(&komunikasi_thread, NULL, thread_komunikasi, NULL) != 0) {
-        cerr << "Error creating komunikasi_thread" << endl;
-        return 1;
-    }
+   pthread_t komunikasi_thread;
+   if (pthread_create(&komunikasi_thread, NULL, thread_komunikasi, NULL) != 0) {
+       cerr << "Error creating komunikasi_thread" << endl;
+       return 1;
+   }
 
     pthread_t receive_thread;
     if (pthread_create(&receive_thread, NULL, receiveBasestation, NULL) != 0) {
@@ -753,8 +765,8 @@ int main() {
     return 0;
 }
 // ===================== Logging ======================= //
-// ----------- format YYYY-MM-DD ----------- //
-std::string getCurrentDate() {
+ // ----------- format YYYY-MM-DD ----------- //
+ std::string getCurrentDate() {
     time_t now = time(0);
     tm *ltm = localtime(&now);
     

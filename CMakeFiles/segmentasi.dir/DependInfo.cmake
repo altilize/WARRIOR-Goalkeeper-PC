@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Camera.cpp" "CMakeFiles/segmentasi.dir/library/Camera.cpp.o" "gcc" "CMakeFiles/segmentasi.dir/library/Camera.cpp.o.d"
-  "/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/Citra.cpp" "CMakeFiles/segmentasi.dir/library/Citra.cpp.o" "gcc" "CMakeFiles/segmentasi.dir/library/Citra.cpp.o.d"
-  "/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/segmentasi.cpp" "CMakeFiles/segmentasi.dir/segmentasi.cpp.o" "gcc" "CMakeFiles/segmentasi.dir/segmentasi.cpp.o.d"
+  "/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/Camera.cpp" "CMakeFiles/segmentasi.dir/library/Camera.cpp.o" "gcc" "CMakeFiles/segmentasi.dir/library/Camera.cpp.o.d"
+  "/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/Citra.cpp" "CMakeFiles/segmentasi.dir/library/Citra.cpp.o" "gcc" "CMakeFiles/segmentasi.dir/library/Citra.cpp.o.d"
+  "/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/segmentasi.cpp" "CMakeFiles/segmentasi.dir/segmentasi.cpp.o" "gcc" "CMakeFiles/segmentasi.dir/segmentasi.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/CMakeFiles/segmentation.dir/DependInfo.cmake"
+  "/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui/CMakeFiles/segmentation.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

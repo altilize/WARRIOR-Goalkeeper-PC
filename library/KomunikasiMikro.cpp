@@ -8,10 +8,10 @@ char USBSTM32[] = {"/dev/ttyACM0"};
 int total_checksum = 0;
 unsigned char dataaaserial[20];
 
+// =============== Inisisasi Komunikasi =============
 void R2CKomunikasiSTM32::STM32init(Serial &STM32){
 
 	int abc = STM32.getindexportSTM32(USBSTM32);
-	// printf("%i\n",abc);
 	while (abc == -1)
 	{
 		abc = STM32.getindexportSTM32(USBSTM32);
@@ -22,6 +22,7 @@ void R2CKomunikasiSTM32::STM32init(Serial &STM32){
 	usleep(10 * 1000);
 }
 
+// ==================== Send Data to STM32 ================ //
 int R2CKomunikasiSTM32::sendData(Serial com1, pcData dataPC)
 {
 	
@@ -54,6 +55,7 @@ int R2CKomunikasiSTM32::sendData(Serial com1, pcData dataPC)
 		else if (dataPC.MOTION == 0) dataaaserial[1] = 0;
 		dataaaserial[2] = dataPC.KECEPATAN>>8; 
 		dataaaserial[3] = dataPC.KECEPATAN; 
+		// ------ handle heading and sign heading ------- //
 		if (dataPC.HEADING < 0)
 		{
 			dataaaserial[4] = 1; 
@@ -64,6 +66,7 @@ int R2CKomunikasiSTM32::sendData(Serial com1, pcData dataPC)
 			dataaaserial[4] = 0; 
 			dataaaserial[5] = dataPC.HEADING; 
 		}
+		// --------------- handle vz ------------------- //
 		int vz = (int)dataPC.VZ;
 		if (vz < 0)
 		{
@@ -75,6 +78,7 @@ int R2CKomunikasiSTM32::sendData(Serial com1, pcData dataPC)
 		}
 		dataaaserial[7] = vz >> 8;
 		dataaaserial[8] = vz; 
+		// --------------------------------------------- //
 		dataaaserial[9] = dataPC.HANDLER;
 		dataaaserial[10] = dataPC.TENDANG;
 		dataaaserial[11] = dataPC.KICK_MODE;
@@ -92,6 +96,8 @@ int R2CKomunikasiSTM32::sendData(Serial com1, pcData dataPC)
 
 }
 
+
+// ============================= Read Data From STM32 =================================== //
 bool R2CKomunikasiSTM32::parseSTM32Data(STM32Data &sData, const unsigned char *data)
 {
 	sData.HEADER = data[0];
@@ -108,14 +114,14 @@ bool R2CKomunikasiSTM32::parseSTM32Data(STM32Data &sData, const unsigned char *d
 
 		sData.XPOS = (float)((data[11] << 8) + data[12]);
 
-			if(data[10] == 1){ 
-				sData.XPOS *= -1;
-			}
+		if(data[10] == 1){ 
+			sData.XPOS *= -1;
+		}
 		
 		sData.YPOS = (float)((data[14] << 8) + data[15]);
-			if(data[13] == 1) {
-				sData.YPOS *= -1;
-			} 
+		if(data[13] == 1) {
+			sData.YPOS *= -1;
+		} 
 		// printf("%i|%2f\n", sData.IR_MUSUH_1, sData.YPOS);
 
 	// 		for(int i=0;i<16;i++){
@@ -123,7 +129,7 @@ bool R2CKomunikasiSTM32::parseSTM32Data(STM32Data &sData, const unsigned char *d
 	// }
 	// printf("\n");
 	
-return true;
+		return true;
 	}
 	
 	

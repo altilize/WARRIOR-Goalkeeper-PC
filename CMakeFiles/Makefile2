@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC
+CMAKE_SOURCE_DIR = /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC
+CMAKE_BINARY_DIR = /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -102,14 +102,14 @@ gui/clean: gui/CMakeFiles/segmentation.dir/clean
 CMakeFiles/kamera.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kamera.dir/build.make CMakeFiles/kamera.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kamera.dir/build.make CMakeFiles/kamera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=1,2,3,4,5 "Built target kamera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=1,2,3,4,5 "Built target kamera"
 .PHONY : CMakeFiles/kamera.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/kamera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/kamera.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles 0
 .PHONY : CMakeFiles/kamera.dir/rule
 
 # Convenience name for target.
@@ -128,14 +128,14 @@ CMakeFiles/kamera.dir/clean:
 CMakeFiles/segmentasi.dir/all: gui/CMakeFiles/segmentation.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentasi.dir/build.make CMakeFiles/segmentasi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/segmentasi.dir/build.make CMakeFiles/segmentasi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=16,17,18,19 "Built target segmentasi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=16,17,18,19 "Built target segmentasi"
 .PHONY : CMakeFiles/segmentasi.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/segmentasi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/segmentasi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles 0
 .PHONY : CMakeFiles/segmentasi.dir/rule
 
 # Convenience name for target.
@@ -154,14 +154,14 @@ CMakeFiles/segmentasi.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -180,14 +180,14 @@ CMakeFiles/main.dir/clean:
 gui/CMakeFiles/segmentation.dir/all:
 	$(MAKE) $(MAKESILENT) -f gui/CMakeFiles/segmentation.dir/build.make gui/CMakeFiles/segmentation.dir/depend
 	$(MAKE) $(MAKESILENT) -f gui/CMakeFiles/segmentation.dir/build.make gui/CMakeFiles/segmentation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=20,21 "Built target segmentation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles --progress-num=20,21 "Built target segmentation"
 .PHONY : gui/CMakeFiles/segmentation.dir/all
 
 # Build rule for subdir invocation for target.
 gui/CMakeFiles/segmentation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gui/CMakeFiles/segmentation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles 0
 .PHONY : gui/CMakeFiles/segmentation.dir/rule
 
 # Convenience name for target.

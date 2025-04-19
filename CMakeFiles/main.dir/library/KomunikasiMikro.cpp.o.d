@@ -1,8 +1,8 @@
 CMakeFiles/main.dir/library/KomunikasiMikro.cpp.o: \
- /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/KomunikasiMikro.cpp \
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/KomunikasiMikro.cpp \
  /usr/include/stdc-predef.h \
- /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/KomunikasiMikro.h \
- /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/InisiasiSerial.h \
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/KomunikasiMikro.h \
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/InisiasiSerial.h \
  /usr/include/termios.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -25,7 +25,7 @@ CMakeFiles/main.dir/library/KomunikasiMikro.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
- /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/TypeData.h \
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/TypeData.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

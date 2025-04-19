@@ -1,8 +1,8 @@
-/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles/kamera.dir
-/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles/segmentasi.dir
-/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles/main.dir
-/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles/edit_cache.dir
-/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/CMakeFiles/rebuild_cache.dir
-/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/CMakeFiles/segmentation.dir
-/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/CMakeFiles/edit_cache.dir
-/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/CMakeFiles/rebuild_cache.dir
+/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles/kamera.dir
+/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles/segmentasi.dir
+/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles/main.dir
+/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles/edit_cache.dir
+/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/CMakeFiles/rebuild_cache.dir
+/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui/CMakeFiles/segmentation.dir
+/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui/CMakeFiles/edit_cache.dir
+/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui/CMakeFiles/rebuild_cache.dir

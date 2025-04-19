@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/library/InisiasiSerial.cpp.o: \
- /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/InisiasiSerial.cpp \
+ /home/moses/main/WARRIOR-Goalkeeper-PC/library/InisiasiSerial.cpp \
  /usr/include/stdc-predef.h \
- /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/library/InisiasiSerial.h \
+ /home/moses/main/WARRIOR-Goalkeeper-PC/library/InisiasiSerial.h \
  /usr/include/termios.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

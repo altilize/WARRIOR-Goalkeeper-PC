@@ -10,7 +10,6 @@
 int Serial::getindexportSTM32(const char *port) 
 {
     index = open(port, O_RDWR | O_NOCTTY);
-	// printf("%i\n",index);
     if (index ==-1){
         printf("Port %s tidak dapat dibuka\n", port);
     }
@@ -32,10 +31,10 @@ void Serial::initserial()
 	cfsetispeed(&toptions, 115200); //baudRate
 	cfsetospeed(&toptions, 115200);
 
-	toptions.c_cflag &= ~PARENB;
-	toptions.c_cflag &= ~CSTOPB;
+	toptions.c_cflag &= ~PARENB; // no parity
+	toptions.c_cflag &= ~CSTOPB; // 1 stop bit
 	toptions.c_cflag &= ~CSIZE;
-	toptions.c_cflag |= CS8;
+	toptions.c_cflag |= CS8; // 8 data bits
 
 	toptions.c_cflag &= ~CRTSCTS;
 
@@ -49,6 +48,7 @@ void Serial::initserial()
 	toptions.c_cc[VMIN] = 12; //0; //PANJANG_DATA_ARDUINO;
 	toptions.c_cc[VTIME] = 0; //10;
 
+	// menerapkan pengaturan
 	tcsetattr(index, TCSANOW, &toptions);
 
 	tcflush(index, TCIFLUSH);

@@ -1,4 +1,4 @@
-# Install script for directory: /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC
+# Install script for directory: /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui/cmake_install.cmake")
+  include("/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: /home/moses/Main/WARRIOR/Goalkeeper/WARRIOR-Goalkeeper-PC/gui
+# Install script for directory: /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

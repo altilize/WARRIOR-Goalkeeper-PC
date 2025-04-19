@@ -388,22 +388,25 @@ CMakeFiles/segmentasi.dir/library/Citra.cpp.o: library/Citra.cpp \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/string.h \
   /usr/include/strings.h \
-  /usr/local/include/opencv4/opencv2/calib3d/calib3d.hpp \
-  /usr/local/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/include/opencv4/opencv2/core.hpp \
-  /usr/local/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/calib3d/calib3d.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/version.hpp \
   /usr/include/c++/11/limits \
-  /usr/local/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
   /usr/include/c++/11/cstddef \
-  /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
   /usr/include/c++/11/stdlib.h \
-  /usr/local/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -415,14 +418,12 @@ CMakeFiles/segmentasi.dir/library/Citra.cpp.o: library/Citra.cpp \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_tempbuf.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/local/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
   /usr/include/c++/11/cstring \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -435,7 +436,7 @@ CMakeFiles/segmentasi.dir/library/Citra.cpp.o: library/Citra.cpp \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
@@ -444,7 +445,6 @@ CMakeFiles/segmentasi.dir/library/Citra.cpp.o: library/Citra.cpp \
   /usr/include/c++/11/bits/uses_allocator.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/shared_ptr.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
@@ -456,32 +456,31 @@ CMakeFiles/segmentasi.dir/library/Citra.cpp.o: library/Citra.cpp \
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/local/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
   /usr/include/assert.h \
-  /usr/local/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/include/opencv4/opencv2/core/matx.inl.hpp \
-  /usr/local/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
   /usr/include/c++/11/cfloat \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /usr/local/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/bits/sstream.tcc \
-  /usr/local/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/mutex \
@@ -491,24 +490,21 @@ CMakeFiles/segmentasi.dir/library/Citra.cpp.o: library/Citra.cpp \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
-  /usr/local/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/include/opencv4/opencv2/flann/config.h \
-  /usr/local/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/include/opencv4/opencv2/core/utils/logger.hpp \
-  /usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp \
-  /usr/local/include/opencv4/opencv2/core/utils/logtag.hpp \
-  /usr/local/include/opencv4/opencv2/highgui/highgui.hpp \
-  /usr/local/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/include/opencv4/opencv2/videoio.hpp \
-  /usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp \
-  /usr/local/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/highgui/highgui.hpp \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
   /usr/include/c++/11/math.h \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
@@ -736,20 +732,20 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
   /usr/include/c++/11/bits/refwrap.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/local/include/opencv4/opencv2/highgui/highgui.hpp \
-  /usr/local/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/include/opencv4/opencv2/core.hpp \
-  /usr/local/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/include/opencv4/opencv2/core/version.hpp \
-  /usr/local/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/highgui/highgui.hpp \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
   /usr/include/c++/11/cstddef \
-  /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
-  /usr/local/include/opencv4/opencv2/core/base.hpp \
-  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -766,7 +762,7 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_tempbuf.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/local/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
   /usr/include/c++/11/cstring \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -779,7 +775,7 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
@@ -792,38 +788,37 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/local/include/opencv4/opencv2/core/neon_utils.hpp \
-  /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
   /usr/include/assert.h \
-  /usr/local/include/opencv4/opencv2/core/check.hpp \
-  /usr/local/include/opencv4/opencv2/core/traits.hpp \
-  /usr/local/include/opencv4/opencv2/core/matx.hpp \
-  /usr/local/include/opencv4/opencv2/core/saturate.hpp \
-  /usr/local/include/opencv4/opencv2/core/fast_math.hpp \
-  /usr/local/include/opencv4/opencv2/core/matx.inl.hpp \
-  /usr/local/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
   /usr/include/c++/11/cfloat \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/local/include/opencv4/opencv2/core/mat.hpp \
-  /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
-  /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
-  /usr/local/include/opencv4/opencv2/core/persistence.hpp \
-  /usr/local/include/opencv4/opencv2/core/operations.hpp \
-  /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
   /usr/include/c++/11/complex \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/bits/sstream.tcc \
-  /usr/local/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/std_function.h \
-  /usr/local/include/opencv4/opencv2/core/optim.hpp \
-  /usr/local/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/include/opencv4/opencv2/core/cvdef.h \
-  /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/include/opencv4/opencv2/videoio.hpp \
-  /usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp \
-  /usr/local/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
   library/TypeData.h \
   library/Camera.h \
   library/TypeData.h \
@@ -2153,55 +2148,52 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
   /usr/include/gtkmm-3.0/gtkmm/viewport.h \
   /usr/include/gtkmm-3.0/gtkmm/volumebutton.h \
   gui/include/SegmentationUi.hpp \
-  /usr/local/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/include/opencv4/opencv2/calib3d.hpp \
-  /usr/local/include/opencv4/opencv2/features2d.hpp \
-  /usr/local/include/opencv4/opencv2/flann/miniflann.hpp \
-  /usr/local/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/include/opencv4/opencv2/flann/config.h \
-  /usr/local/include/opencv4/opencv2/core/affine.hpp \
-  /usr/local/include/opencv4/opencv2/core/utils/logger.hpp \
-  /usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp \
-  /usr/local/include/opencv4/opencv2/core/utils/logtag.hpp \
-  /usr/local/include/opencv4/opencv2/dnn.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/include/opencv4/opencv2/core/async.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/version.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/dict.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/layer.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
-  /usr/local/include/opencv4/opencv2/flann.hpp \
-  /usr/local/include/opencv4/opencv2/flann/flann_base.hpp \
-  /usr/local/include/opencv4/opencv2/flann/general.h \
-  /usr/local/include/opencv4/opencv2/flann/matrix.h \
-  /usr/local/include/opencv4/opencv2/flann/params.h \
-  /usr/local/include/opencv4/opencv2/flann/any.h \
-  /usr/local/include/opencv4/opencv2/flann/defines.h \
-  /usr/local/include/opencv4/opencv2/flann/saving.h \
-  /usr/local/include/opencv4/opencv2/flann/nn_index.h \
-  /usr/local/include/opencv4/opencv2/flann/result_set.h \
-  /usr/local/include/opencv4/opencv2/flann/all_indices.h \
-  /usr/local/include/opencv4/opencv2/flann/kdtree_index.h \
-  /usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h \
-  /usr/local/include/opencv4/opencv2/flann/dist.h \
-  /usr/local/include/opencv4/opencv2/flann/heap.h \
+  /usr/include/opencv4/opencv2/opencv.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/dnn.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/core/async.hpp \
+  /usr/include/opencv4/opencv2/dnn/version.hpp \
+  /usr/include/opencv4/opencv2/dnn/dict.hpp \
+  /usr/include/opencv4/opencv2/dnn/layer.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+  /usr/include/opencv4/opencv2/dnn/dnn.hpp \
+  /usr/include/opencv4/opencv2/flann.hpp \
+  /usr/include/opencv4/opencv2/flann/flann_base.hpp \
+  /usr/include/opencv4/opencv2/flann/general.h \
+  /usr/include/opencv4/opencv2/flann/matrix.h \
+  /usr/include/opencv4/opencv2/flann/params.h \
+  /usr/include/opencv4/opencv2/flann/any.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/saving.h \
+  /usr/include/opencv4/opencv2/flann/nn_index.h \
+  /usr/include/opencv4/opencv2/flann/result_set.h \
+  /usr/include/opencv4/opencv2/flann/all_indices.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_index.h \
+  /usr/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /usr/include/opencv4/opencv2/flann/dist.h \
+  /usr/include/opencv4/opencv2/flann/heap.h \
   /usr/include/c++/11/unordered_map \
   /usr/include/c++/11/bits/hashtable.h \
   /usr/include/c++/11/bits/hashtable_policy.h \
   /usr/include/c++/11/bits/enable_special_members.h \
   /usr/include/c++/11/bits/unordered_map.h \
-  /usr/local/include/opencv4/opencv2/flann/allocator.h \
-  /usr/local/include/opencv4/opencv2/flann/random.h \
-  /usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h \
-  /usr/local/include/opencv4/opencv2/flann/kmeans_index.h \
-  /usr/local/include/opencv4/opencv2/flann/logger.h \
-  /usr/local/include/opencv4/opencv2/flann/composite_index.h \
-  /usr/local/include/opencv4/opencv2/flann/linear_index.h \
-  /usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
-  /usr/local/include/opencv4/opencv2/flann/lsh_index.h \
-  /usr/local/include/opencv4/opencv2/flann/lsh_table.h \
+  /usr/include/opencv4/opencv2/flann/allocator.h \
+  /usr/include/opencv4/opencv2/flann/random.h \
+  /usr/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /usr/include/opencv4/opencv2/flann/kmeans_index.h \
+  /usr/include/opencv4/opencv2/flann/logger.h \
+  /usr/include/opencv4/opencv2/flann/composite_index.h \
+  /usr/include/opencv4/opencv2/flann/linear_index.h \
+  /usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_index.h \
+  /usr/include/opencv4/opencv2/flann/lsh_table.h \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
@@ -2213,84 +2205,80 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
   /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/quoted_string.h \
   /usr/include/c++/11/math.h \
-  /usr/local/include/opencv4/opencv2/flann/autotuned_index.h \
-  /usr/local/include/opencv4/opencv2/flann/ground_truth.h \
-  /usr/local/include/opencv4/opencv2/flann/index_testing.h \
-  /usr/local/include/opencv4/opencv2/flann/timer.h \
-  /usr/local/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/include/opencv4/opencv2/ml.hpp \
-  /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
-  /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp \
-  /usr/local/include/opencv4/opencv2/photo.hpp \
-  /usr/local/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+  /usr/include/opencv4/opencv2/flann/autotuned_index.h \
+  /usr/include/opencv4/opencv2/flann/ground_truth.h \
+  /usr/include/opencv4/opencv2/flann/index_testing.h \
+  /usr/include/opencv4/opencv2/flann/timer.h \
+  /usr/include/opencv4/opencv2/flann/sampling.h \
+  /usr/include/opencv4/opencv2/ml.hpp \
+  /usr/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /usr/include/opencv4/opencv2/objdetect.hpp \
+  /usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /usr/include/opencv4/opencv2/objdetect/face.hpp \
+  /usr/include/opencv4/opencv2/photo.hpp \
+  /usr/include/opencv4/opencv2/stitching.hpp \
+  /usr/include/opencv4/opencv2/stitching/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.hpp \
+  /usr/include/opencv4/opencv2/core/cuda_types.hpp \
+  /usr/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/bits/stl_queue.h \
-  /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/include/opencv4/opencv2/video.hpp \
-  /usr/local/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/include/opencv4/opencv2/video.hpp \
+  /usr/include/opencv4/opencv2/video/tracking.hpp \
+  /usr/include/opencv4/opencv2/video/background_segm.hpp \
   library/TypeData.h
 
 
-/usr/local/include/opencv4/opencv2/video.hpp:
+/usr/include/opencv4/opencv2/video/background_segm.hpp:
 
-/usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
+/usr/include/opencv4/opencv2/video/tracking.hpp:
 
-/usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp:
+/usr/include/opencv4/opencv2/stitching/detail/blenders.hpp:
 
-/usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp:
+/usr/include/opencv4/opencv2/stitching/detail/seam_finders.hpp:
 
-/usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp:
+/usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
 
-/usr/local/include/opencv4/opencv2/core/cuda.inl.hpp:
+/usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
 
-/usr/local/include/opencv4/opencv2/core/cuda.hpp:
+/usr/include/opencv4/opencv2/stitching/detail/util.hpp:
 
-/usr/local/include/opencv4/opencv2/stitching/warpers.hpp:
+/usr/include/opencv4/opencv2/stitching/detail/matchers.hpp:
 
-/usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp:
+/usr/include/opencv4/opencv2/core/cuda_types.hpp:
 
-/usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp:
+/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp:
 
-/usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp:
+/usr/include/opencv4/opencv2/stitching/warpers.hpp:
 
-/usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp:
+/usr/include/opencv4/opencv2/stitching.hpp:
 
-/usr/local/include/opencv4/opencv2/ml/ml.inl.hpp:
+/usr/include/opencv4/opencv2/photo.hpp:
 
-/usr/local/include/opencv4/opencv2/flann/sampling.h:
+/usr/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp:
 
-/usr/local/include/opencv4/opencv2/flann/timer.h:
+/usr/include/opencv4/opencv2/objdetect.hpp:
 
-/usr/local/include/opencv4/opencv2/flann/index_testing.h:
+/usr/include/opencv4/opencv2/ml/ml.inl.hpp:
 
-/usr/local/include/opencv4/opencv2/flann/ground_truth.h:
+/usr/include/opencv4/opencv2/flann/index_testing.h:
 
-/usr/local/include/opencv4/opencv2/flann/autotuned_index.h:
+/usr/include/opencv4/opencv2/flann/ground_truth.h:
+
+/usr/include/opencv4/opencv2/flann/autotuned_index.h:
 
 /usr/include/c++/11/bits/quoted_string.h:
 
@@ -2304,23 +2292,17 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
-/usr/local/include/opencv4/opencv2/flann/lsh_table.h:
+/usr/include/opencv4/opencv2/flann/lsh_table.h:
 
-/usr/local/include/opencv4/opencv2/flann/linear_index.h:
+/usr/include/opencv4/opencv2/flann/linear_index.h:
 
-/usr/local/include/opencv4/opencv2/flann/composite_index.h:
+/usr/include/opencv4/opencv2/flann/composite_index.h:
 
-/usr/local/include/opencv4/opencv2/flann/logger.h:
+/usr/include/opencv4/opencv2/flann/logger.h:
 
-/usr/local/include/opencv4/opencv2/flann/kmeans_index.h:
+/usr/include/opencv4/opencv2/flann/kmeans_index.h:
 
-/usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h:
-
-/usr/local/include/opencv4/opencv2/flann/random.h:
-
-/usr/local/include/opencv4/opencv2/flann/allocator.h:
-
-/usr/include/c++/11/bits/unordered_map.h:
+/usr/include/opencv4/opencv2/flann/kdtree_single_index.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
@@ -2328,43 +2310,35 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/c++/11/unordered_map:
 
-/usr/local/include/opencv4/opencv2/flann/heap.h:
+/usr/include/opencv4/opencv2/flann/heap.h:
 
-/usr/local/include/opencv4/opencv2/flann/dist.h:
+/usr/include/opencv4/opencv2/flann/dynamic_bitset.h:
 
-/usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h:
+/usr/include/opencv4/opencv2/flann/all_indices.h:
 
-/usr/local/include/opencv4/opencv2/flann/all_indices.h:
+/usr/include/opencv4/opencv2/flann/any.h:
 
-/usr/local/include/opencv4/opencv2/flann/nn_index.h:
+/usr/include/opencv4/opencv2/flann/matrix.h:
 
-/usr/local/include/opencv4/opencv2/flann/saving.h:
+/usr/include/opencv4/opencv2/flann/flann_base.hpp:
 
-/usr/local/include/opencv4/opencv2/flann.hpp:
+/usr/include/opencv4/opencv2/dnn/dnn.inl.hpp:
 
-/usr/local/include/opencv4/opencv2/dnn/layer.hpp:
+/usr/include/opencv4/opencv2/core/async.hpp:
 
-/usr/local/include/opencv4/opencv2/dnn/dict.hpp:
+/usr/include/opencv4/opencv2/dnn/layer.hpp:
 
-/usr/local/include/opencv4/opencv2/dnn/version.hpp:
+/usr/include/opencv4/opencv2/dnn/dnn.hpp:
 
-/usr/local/include/opencv4/opencv2/core/async.hpp:
-
-/usr/local/include/opencv4/opencv2/dnn/dnn.hpp:
-
-/usr/local/include/opencv4/opencv2/opencv.hpp:
+/usr/include/opencv4/opencv2/opencv.hpp:
 
 /usr/include/gtkmm-3.0/gtkmm/volumebutton.h:
-
-/usr/local/include/opencv4/opencv2/flann/matrix.h:
 
 /usr/include/gtkmm-3.0/gtkmm/treerowreference.h:
 
 /usr/include/gtkmm-3.0/gtkmm/treemodelsort.h:
 
 /usr/include/gtkmm-3.0/gtkmm/toolitemgroup.h:
-
-/usr/local/include/opencv4/opencv2/stitching/detail/util.hpp:
 
 /usr/include/gtkmm-3.0/gtkmm/textview.h:
 
@@ -2385,6 +2359,8 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/gtkmm-3.0/gtkmm/spinbutton.h:
 
 /usr/include/gtkmm-3.0/gtkmm/shortcutsshortcut.h:
+
+/usr/include/gtkmm-3.0/gtkmm/shortcutssection.h:
 
 /usr/include/gtkmm-3.0/gtkmm/shortcutlabel.h:
 
@@ -2422,6 +2398,8 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/gtkmm-3.0/gtkmm/printunixdialog.h:
 
+/usr/include/gtkmm-3.0/gtkmm/printer.h:
+
 /usr/include/gtkmm-3.0/gtkmm/printcontext.h:
 
 /usr/include/gtkmm-3.0/gtkmm/popovermenu.h:
@@ -2433,6 +2411,8 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/gtkmm-3.0/gtkmm/pagesetup.h:
 
 /usr/include/gtkmm-3.0/gtkmm/notebook.h:
+
+/usr/include/opencv4/opencv2/flann/saving.h:
 
 /usr/include/gtkmm-3.0/gtkmm/modelbutton.h:
 
@@ -2446,8 +2426,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/gtkmm-3.0/gtkmm/treedragsource.h:
 
-/usr/local/include/opencv4/opencv2/video/tracking.hpp:
-
 /usr/include/gtkmm-3.0/gtkmm/treedragdest.h:
 
 /usr/include/gtkmm-3.0/gtkmm/liststore.h:
@@ -2460,6 +2438,8 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/gtkmm-3.0/gtkmm/infobar.h:
 
+/usr/include/gtkmm-3.0/gtkmm/imagemenuitem.h:
+
 /usr/include/gtkmm-3.0/gtkmm/iconview.h:
 
 /usr/include/gtkmm-3.0/gtkmm/icontheme.h:
@@ -2467,8 +2447,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/gtkmm-3.0/gtkmm/scrollbar.h:
 
 /usr/include/gtkmm-3.0/gtkmm/hvpaned.h:
-
-/usr/include/gtkmm-3.0/gtkmm/handlebox.h:
 
 /usr/include/gtkmm-3.0/gtkmm/grid.h:
 
@@ -2495,8 +2473,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/gtkmm-3.0/gtkmm/filechooserdialog.h:
 
 /usr/include/gtkmm-3.0/gtkmm/filechooserbutton.h:
-
-/usr/local/include/opencv4/opencv2/core/cuda_types.hpp:
 
 /usr/include/gtkmm-3.0/gtkmm/filefilter.h:
 
@@ -2564,6 +2540,8 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/gtkmm-3.0/gtkmm/celleditable.h:
 
+/usr/include/opencv4/opencv2/flann/kdtree_index.h:
+
 /usr/include/gtkmm-3.0/gtkmm/celllayout.h:
 
 /usr/include/gtkmm-3.0/gtkmm/combobox.h:
@@ -2581,10 +2559,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/gtkmm-3.0/gtkmm/headerbar.h:
 
 /usr/include/gtkmm-3.0/gtkmm/hvbuttonbox.h:
-
-/usr/local/include/opencv4/opencv2/flann/flann_base.hpp:
-
-/usr/include/gtkmm-3.0/gtkmm/buttonbox.h:
 
 /usr/include/gtkmm-3.0/gtkmm/activatable.h:
 
@@ -2621,8 +2595,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/gtkmm-3.0/gtkmm/iconsource.h:
 
 /usr/include/gtkmm-3.0/gtkmm/border.h:
-
-/usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp:
 
 /usr/include/gtkmm-3.0/gtkmm/requisition.h:
 
@@ -2678,6 +2650,8 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/gtk-3.0/gtk/deprecated/gtkarrow.h:
 
+/usr/include/gtk-3.0/gtk/gtkwidgetpath.h:
+
 /usr/include/gtk-3.0/gtk/gtkvolumebutton.h:
 
 /usr/include/gtk-3.0/gtk/gtkversion.h:
@@ -2699,8 +2673,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/gtk-3.0/gtk/gtktextbufferrichtext.h:
 
 /usr/include/gtk-3.0/gtk/gtkswitch.h:
-
-/usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp:
 
 /usr/include/gtk-3.0/gtk/gtkstatusbar.h:
 
@@ -2764,6 +2736,8 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/gtk-3.0/gtk/gtkpapersize.h:
 
+/usr/include/gtk-3.0/gtk/gtkpadcontroller.h:
+
 /usr/include/gtk-3.0/gtk/gtkoverlay.h:
 
 /usr/include/gtk-3.0/gtk/gtkorientable.h:
@@ -2774,7 +2748,7 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/gtk-3.0/gtk/gtkmountoperation.h:
 
-/usr/local/include/opencv4/opencv2/flann/kdtree_index.h:
+/usr/include/gtk-3.0/gtk/gtkmodules.h:
 
 /usr/include/gtk-3.0/gtk/gtkmessagedialog.h:
 
@@ -2836,9 +2810,13 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/gtk-3.0/gtk/gtkgesturelongpress.h:
 
+/usr/include/gtk-3.0/gtk/gtkgesture.h:
+
 /usr/include/gtk-3.0/gtk/gtkfontchooserwidget.h:
 
 /usr/include/gtk-3.0/gtk/gtkfontchooserdialog.h:
+
+/usr/include/opencv4/opencv2/flann/hierarchical_clustering_index.h:
 
 /usr/include/gtk-3.0/gtk/gtkfontchooser.h:
 
@@ -2858,9 +2836,9 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/gtk-3.0/gtk/gtkfilechooserdialog.h:
 
-/usr/local/include/opencv4/opencv2/stitching.hpp:
-
 /usr/include/gtk-3.0/gtk/gtkfilechooser.h:
+
+/usr/include/gtk-3.0/gtk/gtkexpander.h:
 
 /usr/include/gtk-3.0/gtk/gtkeventcontrollerscroll.h:
 
@@ -2878,17 +2856,15 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/gtk-3.0/gtk/gtkcomboboxtext.h:
 
-/usr/local/include/opencv4/opencv2/flann/any.h:
-
 /usr/include/gtk-3.0/gtk/gtkcolorchooserwidget.h:
 
 /usr/include/gtk-3.0/gtk/gtkcolorchooserdialog.h:
 
 /usr/include/gtk-3.0/gtk/gtkcolorchooser.h:
 
-/usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:
-
 /usr/include/gtk-3.0/gtk/gtkcolorbutton.h:
+
+/usr/include/gtk-3.0/gtk/gtkmenuitem.h:
 
 /usr/include/gtk-3.0/gtk/gtkcheckmenuitem.h:
 
@@ -2913,8 +2889,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/gtk-3.0/gtk/gtkbuilder.h:
 
 /usr/include/gtk-3.0/gtk/gtkbuildable.h:
-
-/usr/include/gtk-3.0/gtk/gtkbindings.h:
 
 /usr/include/gtk-3.0/gtk/gtkbbox.h:
 
@@ -2943,6 +2917,8 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/gtk-3.0/gtk/gtkselection.h:
 
 /usr/include/gtk-3.0/gtk/gtkdnd.h:
+
+/usr/include/gtk-3.0/gtk/gtktreesortable.h:
 
 /usr/include/gtk-3.0/gtk/gtktreeview.h:
 
@@ -2984,6 +2960,8 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/atk-1.0/atk/atkstateset.h:
 
+/usr/include/atk-1.0/atk/atksocket.h:
+
 /usr/include/atk-1.0/atk/atkrelationset.h:
 
 /usr/include/atk-1.0/atk/atkrelation.h:
@@ -3010,13 +2988,9 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/atk-1.0/atk/atkstate.h:
 
-/usr/include/atk-1.0/atk/atkobject.h:
+/usr/include/c++/11/bits/enable_special_members.h:
 
-/usr/include/gtk-3.0/gtk/gtkcellrendereraccel.h:
-
-/usr/include/atk-1.0/atk/atk.h:
-
-/usr/include/gtk-3.0/gtk/gtktypes.h:
+/usr/include/glibmm-2.4/glibmm/containers.h:
 
 /usr/include/gtk-3.0/gtk/gtkshortcutsshortcut.h:
 
@@ -3033,8 +3007,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/glibmm-2.4/glibmm/utility.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/glibmm-2.4/glibmm/base64.h:
 
 /usr/include/glibmm-2.4/glibmm/objectbase.h:
 
@@ -3056,8 +3028,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/glib-2.0/gio/gdbusserver.h:
 
-/usr/local/include/opencv4/opencv2/objdetect/barcode.hpp:
-
 /usr/include/gtk-3.0/gtk/gtkpagesetup.h:
 
 /usr/include/harfbuzz/hb-common.h:
@@ -3067,14 +3037,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/freetype2/freetype/config/public-macros.h:
 
 /usr/include/glibmm-2.4/glibmm/variant.h:
-
-/usr/include/glibmm-2.4/glibmm/arrayhandle.h:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/gtk-3.0/gtk/gtkwindowgroup.h:
-
-/usr/include/giomm-2.4/giomm/socketservice.h:
 
 /usr/include/sigc++-2.0/sigc++/adaptors/track_obj.h:
 
@@ -3088,29 +3050,13 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/giomm-2.4/giomm/dbusauthobserver.h:
 
-/usr/include/sigc++-2.0/sigc++/adaptors/bind.h:
-
-/usr/include/glib-2.0/gio/gsocketconnectable.h:
-
-/usr/include/glibmm-2.4/glibmm/variant_basictypes.h:
-
-/usr/include/pangomm-1.4/pangomm/layout.h:
-
-/usr/include/sigc++-2.0/sigc++/adaptors/deduce_result_type.h:
-
-/usr/include/glib-2.0/gio/gfileinfo.h:
+/usr/include/sigc++-2.0/sigc++/adaptors/adaptors.h:
 
 /usr/include/sigc++-2.0/sigc++/functors/functor_trait.h:
 
 /usr/include/sigc++-2.0/sigc++/adaptors/adaptor_trait.h:
 
 /usr/include/glibmm-2.4/glibmm/binding.h:
-
-/usr/include/c++/11/locale:
-
-/usr/include/gtkmm-3.0/gtkmm/stackswitcher.h:
-
-/usr/include/freetype2/freetype/config/ftheader.h:
 
 /usr/include/gtk-3.0/gtk/deprecated/gtkhseparator.h:
 
@@ -3128,17 +3074,27 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
 
-/usr/local/include/opencv4/opencv2/core/mat.inl.hpp:
-
 /usr/include/glib-2.0/gio/gcontenttype.h:
 
 /usr/include/giomm-2.4/giomm/fileattributeinfo.h:
 
 /usr/include/glib-2.0/gobject/glib-enumtypes.h:
 
+/usr/include/glib-2.0/gobject/genums.h:
+
+/usr/include/c++/11/cmath:
+
 /usr/include/glib-2.0/glib/gmappedfile.h:
 
 /usr/include/giomm-2.4/giomm/tlsclientconnection.h:
+
+/usr/include/sigc++-2.0/sigc++/signal_base.h:
+
+/usr/include/giomm-2.4/giomm/settingsschema.h:
+
+/usr/include/gtk-3.0/gdk/gdkdevicepad.h:
+
+/usr/include/pango-1.0/pango/pango-glyph-item.h:
 
 /usr/include/glib-2.0/gobject/gtype.h:
 
@@ -3154,13 +3110,15 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/glib-2.0/gobject/gbinding.h:
 
-/usr/include/atk-1.0/atk/atkdocument.h:
+/usr/include/glibmm-2.4/glibmm/enums.h:
 
-/usr/include/glib-2.0/gobject/gtypemodule.h:
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
 
 /usr/include/gtkmm-3.0/gtkmm/numerableicon.h:
 
 /usr/include/sigc++-2.0/sigc++/type_traits.h:
+
+/usr/include/opencv4/opencv2/highgui.hpp:
 
 /usr/include/gtk-3.0/gtk/gtkcelllayout.h:
 
@@ -3212,6 +3170,8 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/glib-2.0/glib/grefcount.h:
 
+/usr/include/opencv4/opencv2/flann/sampling.h:
+
 /usr/include/freetype2/freetype/config/ftstdlib.h:
 
 /usr/include/c++/11/array:
@@ -3226,8 +3186,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/glib-2.0/glib/gqueue.h:
 
-/usr/local/include/opencv4/opencv2/video/background_segm.hpp:
-
 /usr/include/c++/11/ext/numeric_traits.h:
 
 /usr/include/gtk-3.0/gtk/gtksearchbar.h:
@@ -3238,11 +3196,13 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/harfbuzz/hb-set.h:
 
-/usr/include/atk-1.0/atk/atkobjectfactory.h:
-
-/usr/include/glib-2.0/glib/gprimes.h:
-
 /usr/include/glib-2.0/glib/gpattern.h:
+
+/usr/include/glib-2.0/glib/gvariant.h:
+
+/usr/include/gtkmm-3.0/gtkmm/spinner.h:
+
+/usr/include/glib-2.0/gio/gfilenamecompleter.h:
 
 /usr/include/glib-2.0/glib/gkeyfile.h:
 
@@ -3250,19 +3210,23 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/glib-2.0/glib/gunicode.h:
 
+/usr/include/gtkmm-3.0/gtkmm/buttonbox.h:
+
+/usr/include/opencv4/opencv2/core/version.hpp:
+
 /usr/include/glib-2.0/glib/gstring.h:
 
-/usr/include/glib-2.0/glib/giochannel.h:
+/usr/include/opencv4/opencv2/imgproc/imgproc.hpp:
 
-/usr/include/glib-2.0/glib/ghostutils.h:
+/usr/include/glib-2.0/glib/giochannel.h:
 
 /usr/include/glib-2.0/glib/ghook.h:
 
 /usr/include/glib-2.0/glib/gslist.h:
 
-/usr/include/x86_64-linux-gnu/bits/dirent.h:
+/usr/include/freetype2/freetype/config/ftconfig.h:
 
-/usr/include/glibmm-2.4/glibmm/enums.h:
+/usr/include/glib-2.0/glib/gmem.h:
 
 /usr/include/glib-2.0/glib/gdate.h:
 
@@ -3273,12 +3237,6 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/gtk-3.0/gtk/deprecated/gtkvpaned.h:
 
 /usr/include/glib-2.0/glib/gbytes.h:
-
-/usr/local/include/opencv4/opencv2/stitching/detail/seam_finders.hpp:
-
-/usr/include/atk-1.0/atk/atksocket.h:
-
-/usr/local/include/opencv4/opencv2/core/persistence.hpp:
 
 /usr/include/giomm-2.4/giomm/dbusinterfaceskeleton.h:
 
@@ -3296,6 +3254,10 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 
 /usr/include/gdkmm-3.0/gdkmm/devicemanager.h:
 
+/usr/include/opencv4/opencv2/core/cvstd.hpp:
+
+/usr/include/glib-2.0/gio/gproxy.h:
+
 /usr/include/gtk-3.0/gtk/gtkgesturezoom.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
@@ -3307,6 +3269,8 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/glibmm-2.4/glibmm/quark.h:
 
 /usr/include/giomm-2.4/giomm/menumodel.h:
+
+/usr/include/opencv4/opencv2/core/matx.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
@@ -3325,6 +3289,12 @@ CMakeFiles/segmentasi.dir/segmentasi.cpp.o: segmentasi.cpp \
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
 /usr/include/giomm-2.4/giomm/proxy.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/include/glib-2.0/gio/gconverter.h:
+
+/usr/include/giomm-2.4/giomm/dbusconnection.h:
 
 /usr/include/glib-2.0/glib/gtimer.h:
 
@@ -3370,10 +3340,6 @@ library/Camera.h:
 
 /usr/include/glib-2.0/glib/gerror.h:
 
-/usr/include/glib-2.0/gio/gproxy.h:
-
-/usr/local/include/opencv4/opencv2/features2d.hpp:
-
 /usr/include/atk-1.0/atk/atkaction.h:
 
 /usr/include/gtk-3.0/gdk/gdkenumtypes.h:
@@ -3384,15 +3350,11 @@ library/Camera.h:
 
 /usr/include/glib-2.0/glib/gmacros.h:
 
-/usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp:
-
 /usr/include/giomm-2.4/giomm/loadableicon.h:
 
-/usr/include/atk-1.0/atk/atknoopobjectfactory.h:
-
-/usr/include/atkmm-1.6/atkmm/implementor.h:
-
 /usr/include/glib-2.0/glib/gspawn.h:
+
+/usr/include/opencv4/opencv2/highgui/highgui.hpp:
 
 library/StrikerCamera.h:
 
@@ -3414,63 +3376,29 @@ segmentasi.cpp:
 
 /usr/include/glib-2.0/gio/gpermission.h:
 
-/usr/include/gtkmm-3.0/gtkmm/shortcutssection.h:
+/usr/include/c++/11/bits/unordered_map.h:
 
-/usr/local/include/opencv4/opencv2/imgproc.hpp:
+/usr/include/opencv4/opencv2/imgcodecs.hpp:
 
-/usr/include/cairomm-1.0/cairomm/fontface.h:
+/usr/include/opencv4/opencv2/flann/config.h:
 
-/usr/local/include/opencv4/opencv2/videoio.hpp:
+/usr/include/opencv4/opencv2/flann/defines.h:
 
-/usr/local/include/opencv4/opencv2/highgui.hpp:
+/usr/include/gtk-3.0/gtk/gtktexttagtable.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/pango-1.0/pango/pangocairo.h:
 
-/usr/local/include/opencv4/opencv2/core/utils/logtag.hpp:
+/usr/include/atk-1.0/atk/atknoopobjectfactory.h:
 
-/usr/local/include/opencv4/opencv2/flann/config.h:
-
-/usr/include/x86_64-linux-gnu/asm/types.h:
-
-/usr/include/sigc++-2.0/sigc++/signal_base.h:
-
-/usr/include/giomm-2.4/giomm/settingsschema.h:
-
-/usr/include/gtk-3.0/gdk/gdkdevicepad.h:
-
-/usr/local/include/opencv4/opencv2/ml.hpp:
-
-/usr/include/gtk-3.0/gdk/gdkmonitor.h:
-
-/usr/include/glib-2.0/glib/gfileutils.h:
-
-/usr/include/glib-2.0/gobject/gparam.h:
-
-/usr/include/pango-1.0/pango/pango-glyph-item.h:
-
-/usr/include/glibmm-2.4/glibmm/random.h:
-
-/usr/local/include/opencv4/opencv2/flann/miniflann.hpp:
-
-/usr/include/gtkmm-3.0/gtkmm/treeiter.h:
-
-/usr/include/c++/11/bits/cxxabi_forced.h:
-
-/usr/local/include/opencv4/opencv2/core/ovx.hpp:
-
-/usr/include/gtk-3.0/gtk/gtkappchooserwidget.h:
-
-/usr/include/giomm-2.4/giomm/dbusmenumodel.h:
-
-/usr/include/gtkmm-3.0/gtkmm/imagemenuitem.h:
-
-/usr/local/include/opencv4/opencv2/core/optim.hpp:
+/usr/include/atkmm-1.6/atkmm/implementor.h:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
 /usr/include/gtk-3.0/gtk/gtkliststore.h:
 
 /usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/opencv4/opencv2/calib3d.hpp:
 
 /usr/include/gtk-3.0/gtk/gtkcellrenderer.h:
 
@@ -3486,63 +3414,65 @@ segmentasi.cpp:
 
 /usr/include/c++/11/mutex:
 
-/usr/include/glib-2.0/gobject/genums.h:
-
-/usr/include/c++/11/cmath:
-
-/usr/local/include/opencv4/opencv2/core/utility.hpp:
-
 /usr/include/cairo/cairo-svg.h:
 
 /usr/include/c++/11/sstream:
 
 /usr/include/giomm-2.4/giomm/unixcredentialsmessage.h:
 
-/usr/include/sigc++-2.0/sigc++/adaptors/adaptors.h:
+/usr/include/opencv4/opencv2/core/mat.inl.hpp:
 
-/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:
+/usr/include/gtk-3.0/gdk/gdkdevicemanager.h:
 
-/usr/include/glibmm-2.4/glibmm/date.h:
+/usr/include/glibmm-2.4/glibmm/base64.h:
 
-/usr/include/c++/11/bits/stl_function.h:
+/usr/include/pango-1.0/pango/pango-version-macros.h:
 
-/usr/include/glib-2.0/gio/gioerror.h:
+/usr/include/glib-2.0/glib/gthreadpool.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/glibmm-2.4/glibmm/signalproxy_connectionnode.h:
 
-/usr/include/cairomm-1.0/cairomm/scaledfont.h:
+/usr/include/c++/11/locale:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+/usr/include/gtkmm-3.0/gtkmm/stackswitcher.h:
 
-/usr/include/glib-2.0/gio/gconverter.h:
+/usr/include/freetype2/freetype/config/ftheader.h:
 
-/usr/include/giomm-2.4/giomm/dbusconnection.h:
+/usr/include/opencv4/opencv2/core/fast_math.hpp:
 
-/usr/include/giomm-2.4/giomm/menuitem.h:
+/usr/include/locale.h:
 
-/usr/include/gtk-3.0/gdk/gdkframeclock.h:
+/usr/include/glib-2.0/glib/ghostutils.h:
 
-/usr/local/include/opencv4/opencv2/core/check.hpp:
+/usr/include/opencv4/opencv2/core/saturate.hpp:
+
+/usr/include/glib-2.0/glib/gtypes.h:
+
+/usr/include/giomm-2.4/giomm/socketlistener.h:
+
+/usr/include/sigc++-2.0/sigc++/adaptors/bind.h:
+
+/usr/include/opencv4/opencv2/core/check.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/glib-2.0/glib/gutils.h:
 
 /usr/include/c++/11/bits/vector.tcc:
 
+/usr/include/opencv4/opencv2/flann/dist.h:
+
 /usr/include/glib-2.0/gio/gnetworkaddress.h:
 
-/usr/include/assert.h:
+/usr/include/opencv4/opencv2/core/neon_utils.hpp:
 
-/usr/include/gtkmm-3.0/gtkmm/printer.h:
+/usr/include/pangomm-1.4/pangomm/fontset.h:
 
-/usr/local/include/opencv4/opencv2/core/vsx_utils.hpp:
+/usr/include/opencv4/opencv2/videoio.hpp:
 
-/usr/local/include/opencv4/opencv2/core/neon_utils.hpp:
+/usr/include/giomm-2.4/giomm/menuitem.h:
 
-/usr/include/giomm-2.4/giomm/charsetconverter.h:
-
-/usr/include/glib-2.0/glib/gcharset.h:
-
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+/usr/include/gtk-3.0/gdk/gdkframeclock.h:
 
 /usr/include/c++/11/bits/atomic_base.h:
 
@@ -3562,7 +3492,7 @@ segmentasi.cpp:
 
 /usr/include/c++/11/ext/concurrence.h:
 
-/usr/local/include/opencv4/opencv2/dnn.hpp:
+/usr/include/glib-2.0/gio/gsocketaddress.h:
 
 /usr/include/gtkmm-3.0/gtkmm/printoperation.h:
 
@@ -3570,23 +3500,19 @@ segmentasi.cpp:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
+/usr/include/atk-1.0/atk/atkobject.h:
+
+/usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
+
 /usr/include/glib-2.0/glib/guuid.h:
 
-/usr/include/gtk-3.0/gtk/gtkmenuitem.h:
+/usr/include/gtkmm-3.0/gtkmm/handlebox.h:
 
-/usr/local/include/opencv4/opencv2/core/saturate.hpp:
-
-/usr/include/gtkmm-3.0/gtkmm/scrolledwindow.h:
-
-/usr/include/gtk-3.0/gtk/gtkscrolledwindow.h:
-
-/usr/include/glib-2.0/glib/deprecated/gcache.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/glib-2.0/gio/gasyncresult.h:
+/usr/include/opencv4/opencv2/core.hpp:
 
 /usr/include/stdlib.h:
+
+/usr/include/opencv4/opencv2/stitching/detail/camera.hpp:
 
 /usr/include/glib-2.0/gio/gnativevolumemonitor.h:
 
@@ -3602,6 +3528,10 @@ segmentasi.cpp:
 
 /usr/include/c++/11/bits/stl_stack.h:
 
+/usr/include/gtkmm-3.0/gtkmm/treeiter.h:
+
+/usr/include/c++/11/bits/cxxabi_forced.h:
+
 /usr/include/gtkmm-3.0/gtkmm/range.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
@@ -3616,7 +3546,11 @@ segmentasi.cpp:
 
 /usr/include/glib-2.0/gio/gtlsbackend.h:
 
+/usr/include/opencv4/opencv2/imgproc/segmentation.hpp:
+
 /usr/include/glibmm-2.4/glibmm/bytes.h:
+
+/usr/include/opencv4/opencv2/dnn.hpp:
 
 /usr/include/gtk-3.0/gtk/gtkentrybuffer.h:
 
@@ -3631,14 +3565,6 @@ segmentasi.cpp:
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
 /usr/include/gdkmm-3.0/gdkmm/pixbuf.h:
-
-/usr/include/gtk-3.0/gtk/gtkscrollbar.h:
-
-/usr/include/glib-2.0/glib/gvarianttype.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/c++/11/cstdlib:
 
 /usr/include/gtk-3.0/gtk/gtkradiobutton.h:
 
@@ -3664,6 +3590,22 @@ segmentasi.cpp:
 
 /usr/include/c++/11/bit:
 
+/usr/include/glibmm-2.4/glibmm/helperlist.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/usr/include/gtkmm-3.0/gtkmm/windowgroup.h:
+
+/usr/include/atk-1.0/atk/atktable.h:
+
+/usr/include/pango-1.0/pango/pango-coverage.h:
+
+/usr/include/gtk-3.0/gtk/gtkwindow.h:
+
+/usr/include/assert.h:
+
+/usr/include/opencv4/opencv2/core/affine.hpp:
+
 /usr/include/gtkmm-3.0/gtkmm/stack.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -3674,13 +3616,25 @@ segmentasi.cpp:
 
 /usr/include/glib-2.0/gio/gtlsserverconnection.h:
 
+/usr/include/gtk-3.0/gtk/gtkseparatormenuitem.h:
+
+/usr/include/glibmm-2.4/glibmm/sarray.h:
+
+/usr/include/gtkmm-3.0/gtkmm/targetentry.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/glib-2.0/gio/gioerror.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/cairomm-1.0/cairomm/scaledfont.h:
+
 /usr/include/gtk-3.0/gdk/gdkframetimings.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/c++/11/bits/std_function.h:
-
-/usr/local/include/opencv4/opencv2/core/affine.hpp:
 
 /usr/include/gdkmm-3.0/gdkmm/applaunchcontext.h:
 
@@ -3706,19 +3660,35 @@ library/TypeData.h:
 
 /usr/include/pthread.h:
 
-/usr/local/include/opencv4/opencv2/opencv_modules.hpp:
-
 /usr/include/sigc++-2.0/sigc++/functors/slot_base.h:
 
 /usr/include/glib-2.0/gobject/gbindinggroup.h:
+
+/usr/include/opencv4/opencv2/core/ovx.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/c++/11/bits/stl_deque.h:
 
+/usr/include/opencv4/opencv2/core/types.hpp:
+
+/usr/include/pango-1.0/pango/pango-fontset.h:
+
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/opencv4/opencv2/core/hal/interface.h:
+
+/usr/include/gtkmm-3.0/gtkmm/scrolledwindow.h:
+
+/usr/include/gtk-3.0/gtk/gtkscrolledwindow.h:
+
+/usr/include/glib-2.0/glib/deprecated/gcache.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/glib-2.0/gio/gasyncresult.h:
 
 /usr/include/c++/11/algorithm:
 
@@ -3732,15 +3702,13 @@ library/TypeData.h:
 
 /usr/include/glib-2.0/glib/gshell.h:
 
-/usr/include/locale.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/glibmm-2.4/glibmm/thread.h:
 
 /usr/include/gdkmm-3.0/gdkmm/color.h:
 
-/usr/include/glib-2.0/glib/glist.h:
+/usr/include/opencv4/opencv2/flann/nn_index.h:
 
 /usr/include/giomm-2.4/giomm/liststore.h:
 
@@ -3759,18 +3727,6 @@ library/TypeData.h:
 /usr/include/glibmm-2.4/glibmm/fileutils.h:
 
 /usr/include/harfbuzz/hb-buffer.h:
-
-/usr/local/include/opencv4/opencv2/core/traits.hpp:
-
-/usr/include/giomm-2.4/giomm/themedicon.h:
-
-/usr/include/gtk-3.0/gtk/deprecated/gtkvseparator.h:
-
-/usr/include/c++/11/fstream:
-
-/usr/include/giomm-2.4/giomm/tlscertificate.h:
-
-/usr/include/gtk-3.0/gdk/gdkdisplay.h:
 
 /usr/include/c++/11/bits/localefwd.h:
 
@@ -3808,12 +3764,6 @@ library/TypeData.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/c++/11/bits/stl_multiset.h:
-
 /usr/include/gtkmm-3.0/gtkmm/entrycompletion.h:
 
 /usr/include/c++/11/bits/stl_tree.h:
@@ -3824,33 +3774,21 @@ library/TypeData.h:
 
 /usr/include/giomm-2.4/giomm/remoteactiongroup.h:
 
-/usr/include/gtk-3.0/gtk/deprecated/gtkhscale.h:
-
-/usr/include/giomm-2.4/giomm/socketconnectable.h:
-
 /usr/include/sigc++-2.0/sigc++/slot.h:
-
-/usr/include/gtk-3.0/gtk/gtkmodules.h:
-
-/usr/local/include/opencv4/opencv2/calib3d.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
 /usr/include/c++/11/bits/functexcept.h:
 
-/usr/include/glibmm-2.4/glibmm/propertyproxy.h:
-
-/usr/include/ctype.h:
-
 library/Citra.h:
 
 /usr/include/c++/11/streambuf:
 
-/usr/local/include/opencv4/opencv2/core/matx.hpp:
+/usr/include/glibmm-2.4/glibmm/propertyproxy.h:
+
+/usr/include/ctype.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/linux/errno.h:
 
 /usr/include/gtkmm-3.0/gtkmm/textmark.h:
 
@@ -3904,8 +3842,6 @@ library/Citra.h:
 
 /usr/include/features.h:
 
-/usr/local/include/opencv4/opencv2/core/matx.inl.hpp:
-
 /usr/include/c++/11/bits/stl_multimap.h:
 
 /usr/include/glib-2.0/glib/gthread.h:
@@ -3913,6 +3849,14 @@ library/Citra.h:
 /usr/include/gtkmm-3.0/gtkmm/toolpalette.h:
 
 /usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/glibmm-2.4/glibmm/date.h:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/usr/include/glib-2.0/glib/gcharset.h:
 
 /usr/include/gtk-3.0/gtk/gtksizerequest.h:
 
@@ -3928,6 +3872,8 @@ library/Citra.h:
 
 /usr/include/glibmm-2.4/glibmm/debug.h:
 
+/usr/include/opencv4/opencv2/opencv_modules.hpp:
+
 /usr/include/glib-2.0/glib/gslice.h:
 
 /usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:
@@ -3938,17 +3884,15 @@ library/Citra.h:
 
 /usr/include/c++/11/bits/range_access.h:
 
+library/Camera.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-library/Camera.cpp:
-
-/usr/local/include/opencv4/opencv2/flann/lsh_index.h:
-
-/usr/local/include/opencv4/opencv2/core.hpp:
 
 /usr/include/glib-2.0/glib/gnode.h:
 
@@ -3972,9 +3916,9 @@ library/Camera.cpp:
 
 /usr/include/sigc++-2.0/sigc++/sigc++.h:
 
-/usr/include/x86_64-linux-gnu/bits/confname.h:
+/usr/include/opencv4/opencv2/flann/random.h:
 
-/usr/local/include/opencv4/opencv2/core/fast_math.hpp:
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/gtkmm-3.0/gtkmm/iconinfo.h:
 
@@ -3983,10 +3927,6 @@ library/Camera.cpp:
 /usr/include/c++/11/bits/fstream.tcc:
 
 /usr/include/glibmm-2.4/glibmm/datetime.h:
-
-/usr/include/gtk-3.0/gtk/gtkpadcontroller.h:
-
-/usr/local/include/opencv4/opencv2/imgcodecs.hpp:
 
 /usr/include/c++/11/map:
 
@@ -4008,15 +3948,9 @@ library/Camera.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/glib-2.0/gio/ginetaddress.h:
-
-/usr/include/linux/close_range.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/features-time64.h:
-
-/usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp:
 
 /usr/include/c++/11/system_error:
 
@@ -4035,10 +3969,6 @@ library/Camera.cpp:
 /usr/include/glib-2.0/glib/gconvert.h:
 
 /usr/include/giomm-2.4/giomm/resource.h:
-
-/usr/include/atk-1.0/atk/atkversion.h:
-
-/usr/include/c++/11/ext/string_conversions.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
@@ -4100,18 +4030,6 @@ library/Camera.cpp:
 
 /usr/include/glib-2.0/gio/gcancellable.h:
 
-/usr/include/c++/11/debug/assertions.h:
-
-/usr/include/glibmm-2.4/glibmm/helperlist.h:
-
-/usr/include/gtkmm-3.0/gtkmm/windowgroup.h:
-
-/usr/include/atk-1.0/atk/atktable.h:
-
-/usr/include/pango-1.0/pango/pango-coverage.h:
-
-/usr/include/gtk-3.0/gtk/gtkwindow.h:
-
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
@@ -4121,8 +4039,6 @@ library/Camera.cpp:
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/glib-2.0/glib/genviron.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/libintl.h:
 
@@ -4160,13 +4076,21 @@ library/Camera.cpp:
 
 /usr/include/c++/11/ext/alloc_traits.h:
 
+/usr/include/opencv4/opencv2/flann/miniflann.hpp:
+
 /usr/include/giomm-2.4/giomm/cancellable.h:
 
+/usr/include/opencv4/opencv2/core/mat.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/opencv4/opencv2/flann/result_set.h:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
 
 /usr/include/c++/11/cstdint:
+
+/usr/include/opencv4/opencv2/video.hpp:
 
 /usr/include/glib-2.0/glib/garray.h:
 
@@ -4192,6 +4116,12 @@ library/Camera.cpp:
 
 /usr/include/c++/11/bits/concept_check.h:
 
+/usr/include/opencv4/opencv2/core/optim.hpp:
+
+/usr/include/glib-2.0/gio/gbufferedinputstream.h:
+
+/usr/include/giomm-2.4/giomm/socket.h:
+
 /usr/include/c++/11/bits/ostream.tcc:
 
 /usr/include/glib-2.0/gio/gdbusnameowning.h:
@@ -4214,6 +4144,8 @@ library/Camera.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
+/usr/include/opencv4/opencv2/flann.hpp:
+
 /usr/include/atk-1.0/atk/atkwindow.h:
 
 /usr/include/gtk-3.0/gdk/gdkrgba.h:
@@ -4222,23 +4154,11 @@ library/Camera.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/usr/include/glib-2.0/glib/gvariant.h:
-
-/usr/include/gtkmm-3.0/gtkmm/spinner.h:
-
-/usr/include/glib-2.0/gio/gfilenamecompleter.h:
-
-/usr/include/gtk-3.0/gtk/gtkexpander.h:
-
-/usr/local/include/opencv4/opencv2/core/version.hpp:
-
-/usr/include/gtk-3.0/gtk/gtkheaderbar.h:
-
-/usr/lib/x86_64-linux-gnu/giomm-2.4/include/giommconfig.h:
-
 /usr/include/c++/11/bits/predefined_ops.h:
 
 /usr/include/glib-2.0/gio/gemblemedicon.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/c++/11/cctype:
 
@@ -4254,10 +4174,6 @@ library/Camera.cpp:
 
 /usr/include/giomm-2.4/giomm/simplepermission.h:
 
-/usr/include/gtk-3.0/gtk/gtkwidgetpath.h:
-
-/usr/local/include/opencv4/opencv2/highgui/highgui.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/c++/11/cerrno:
@@ -4269,6 +4185,12 @@ library/Camera.cpp:
 /usr/include/gtk-3.0/gtk/gtktextbuffer.h:
 
 /usr/include/glibmm-2.4/glibmm/shell.h:
+
+/usr/include/glib-2.0/glib/gmain.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/usr/include/sched.h:
 
 /usr/include/gtkmm-3.0/gtkmm/checkbutton.h:
 
@@ -4284,17 +4206,25 @@ library/Camera.cpp:
 
 /usr/include/glibmm-2.4/glibmm/optiongroup.h:
 
+/usr/include/linux/errno.h:
+
+/usr/include/opencv4/opencv2/core/utility.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/glibmm-2.4/glibmm/checksum.h:
-
-/usr/include/giomm-2.4/giomm/zlibdecompressor.h:
 
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/c++/11/bits/move.h:
 
 /usr/include/c++/11/bits/hash_bytes.h:
+
+/usr/include/gtkmm-3.0/gtkmm/gesture.h:
+
+/usr/include/gtk-3.0/gtk/deprecated/gtkradioaction.h:
+
+/usr/include/c++/11/bits/algorithmfwd.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
 
 /usr/include/glib-2.0/gobject/gsignalgroup.h:
 
@@ -4316,11 +4246,23 @@ library/Camera.cpp:
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
+/usr/include/c++/11/ext/string_conversions.h:
+
+/usr/include/atk-1.0/atk/atkversion.h:
+
+/usr/include/glib-2.0/glib/glist.h:
+
+/usr/include/opencv4/opencv2/core/cvdef.h:
+
 /usr/include/c++/11/climits:
 
 /usr/include/gtkmm-3.0/gtkmm/hvbox.h:
 
 /usr/include/c++/11/bits/unique_lock.h:
+
+/usr/include/glib-2.0/gio/gmemorymonitor.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
 
 /usr/include/c++/11/bits/erase_if.h:
 
@@ -4338,8 +4280,6 @@ library/Camera.cpp:
 
 /usr/include/glib-2.0/glib/gqsort.h:
 
-/usr/include/glib-2.0/gio/gdbusproxy.h:
-
 /usr/include/pangomm-1.4/pangomm/font.h:
 
 /usr/include/c++/11/cstddef:
@@ -4352,15 +4292,19 @@ library/Camera.cpp:
 
 /usr/include/glibmm-2.4/glibmm/exceptionhandler.h:
 
-/usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp:
-
 gui/include/SegmentationUi.hpp:
 
 /usr/include/giomm-2.4/giomm/filterinputstream.h:
 
-/usr/local/include/opencv4/opencv2/photo.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/gtk-3.0/gtk/gtkscrollbar.h:
+
+/usr/include/glib-2.0/glib/gvarianttype.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/usr/include/c++/11/cstdlib:
 
 /usr/include/gtkmm-3.0/gtkmm/misc.h:
 
@@ -4388,8 +4332,6 @@ gui/include/SegmentationUi.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
-/usr/local/include/opencv4/opencv2/flann/result_set.h:
-
 /usr/include/c++/11/stdexcept:
 
 /usr/include/string.h:
@@ -4401,8 +4343,6 @@ gui/include/SegmentationUi.hpp:
 /usr/include/c++/11/bits/exception.h:
 
 /usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/glib-2.0/glib/gbookmarkfile.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
@@ -4420,13 +4360,9 @@ gui/include/SegmentationUi.hpp:
 
 /usr/include/gtk-3.0/gdk/gdkpixbuf.h:
 
-/usr/include/gtkmm-3.0/gtkmm/targetentry.h:
+/usr/include/giomm-2.4/giomm/charsetconverter.h:
 
-/usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/gtk-3.0/gtk/gtkseparatormenuitem.h:
-
-/usr/include/glibmm-2.4/glibmm/sarray.h:
+/usr/include/opencv4/opencv2/core/persistence.hpp:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
 
@@ -4486,31 +4422,23 @@ library/Citra.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/usr/include/gtkmm-3.0/gtkmm/gesture.h:
+/usr/include/glibmm-2.4/glibmm/arrayhandle.h:
 
-/usr/include/gtk-3.0/gtk/deprecated/gtkradioaction.h:
+/usr/include/opencv4/opencv2/ml.hpp:
 
-/usr/include/c++/11/bits/algorithmfwd.h:
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
-/usr/include/c++/11/bits/basic_string.tcc:
+/usr/include/gtk-3.0/gtk/gtkwindowgroup.h:
 
-/usr/local/include/opencv4/opencv2/calib3d/calib3d.hpp:
+/usr/include/giomm-2.4/giomm/socketservice.h:
 
-/usr/include/glib-2.0/glib/galloca.h:
+/usr/include/glib-2.0/glib/gfileutils.h:
 
-/usr/include/pangomm-1.4/pangomm/layoutrun.h:
+/usr/include/glib-2.0/gobject/gparam.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/gtk-3.0/gtk/gtktreesortable.h:
-
-/usr/local/include/opencv4/opencv2/core/cvdef.h:
-
-/usr/include/glib-2.0/gio/gdbusnamewatching.h:
+/usr/include/gtk-3.0/gdk/gdkmonitor.h:
 
 /usr/include/gtkmm-3.0/gtkmm/gesturemultipress.h:
-
-/usr/local/include/opencv4/opencv2/flann/defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
@@ -4526,6 +4454,10 @@ library/Citra.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
 
+/usr/include/gtk-3.0/gtk/gtkcellrendereraccel.h:
+
+/usr/include/atk-1.0/atk/atk.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
 
 /usr/include/gtkmm-3.0/gtkmm/layout.h:
@@ -4536,15 +4468,19 @@ library/Citra.cpp:
 
 /usr/include/giomm-2.4/giomm/pollableinputstream.h:
 
-/usr/include/gtk-3.0/gtk/gtkgesture.h:
+/usr/include/atk-1.0/atk/atkdocument.h:
 
-/usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
+/usr/include/glib-2.0/gobject/gtypemodule.h:
+
+/usr/include/opencv4/opencv2/core/base.hpp:
 
 /usr/include/glib-2.0/glib/gstrvbuilder.h:
 
 /usr/include/giomm-2.4/giomm/pollableoutputstream.h:
 
 /usr/include/giomm-2.4/giomm/menuattributeiter.h:
+
+/usr/include/opencv4/opencv2/imgproc.hpp:
 
 /usr/include/asm-generic/types.h:
 
@@ -4580,35 +4516,9 @@ library/Citra.cpp:
 
 /usr/include/c++/11/bits/stl_heap.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+/usr/include/atk-1.0/atk/atkobjectfactory.h:
 
-/usr/include/sched.h:
-
-/usr/include/glib-2.0/glib/gmain.h:
-
-/usr/include/freetype2/freetype/config/ftconfig.h:
-
-/usr/include/glib-2.0/glib/gmem.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/glibmm-2.4/glibmm/uriutils.h:
-
-/usr/local/include/opencv4/opencv2/core/cvstd.hpp:
-
-/usr/include/glibmm-2.4/glibmm/class.h:
-
-/usr/include/pango-1.0/pango/pango-matrix.h:
-
-/usr/include/c++/11/cstring:
-
-/usr/include/gtk-3.0/gtk/gtkshortcutsgroup.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/freetype2/ft2build.h:
+/usr/include/glib-2.0/glib/gprimes.h:
 
 /usr/include/gtk-3.0/gtk/gtkcellrenderertoggle.h:
 
@@ -4624,27 +4534,45 @@ library/Citra.cpp:
 
 /usr/include/pango-1.0/pango/pango-font.h:
 
-/usr/include/glib-2.0/glib/gthreadpool.h:
+/usr/include/c++/11/cstring:
 
-/usr/include/glibmm-2.4/glibmm/signalproxy_connectionnode.h:
+/usr/include/gtk-3.0/gtk/gtkshortcutsgroup.h:
 
-/usr/include/giomm-2.4/giomm/socket.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
-/usr/include/glib-2.0/gio/gbufferedinputstream.h:
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
+/usr/include/freetype2/ft2build.h:
+
+/usr/include/giomm-2.4/giomm/zlibdecompressor.h:
+
+/usr/include/glibmm-2.4/glibmm/checksum.h:
+
+/usr/include/glib-2.0/gio/gsocketconnectable.h:
+
+/usr/include/glibmm-2.4/glibmm/variant_basictypes.h:
+
+/usr/include/pangomm-1.4/pangomm/layout.h:
+
+/usr/include/sigc++-2.0/sigc++/adaptors/deduce_result_type.h:
+
+/usr/include/opencv4/opencv2/flann/general.h:
+
+/usr/include/glib-2.0/gio/gfileinfo.h:
+
+/usr/include/gtk-3.0/gtk/gtkbindings.h:
+
+/usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
+
+/usr/include/glib-2.0/glib/ghash.h:
+
+/usr/include/gtk-3.0/gdk/gdkversionmacros.h:
+
+/usr/include/glib-2.0/glib/gbookmarkfile.h:
 
 /usr/include/c++/11/memory:
 
-/usr/include/glib-2.0/gio/gsimplepermission.h:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
 /usr/include/giomm-2.4/giomm/dbusintrospection.h:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/glibmm-2.4/glibmm/containers.h:
 
 /usr/include/gtkmm-3.0/gtkmm/scrollable.h:
 
@@ -4674,11 +4602,15 @@ library/Citra.cpp:
 
 /usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:
 
+/usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:
+
 /usr/include/c++/11/stack:
 
 /usr/include/glibmm-2.4/glibmm/optioncontext.h:
 
 /usr/include/glibmm-2.4/glibmm/optionentry.h:
+
+/usr/include/glibmm-2.4/glibmm/random.h:
 
 /usr/include/gtkmm-3.0/gtkmm/separator.h:
 
@@ -4700,6 +4632,10 @@ library/Citra.cpp:
 
 /usr/include/c++/11/bits/valarray_array.h:
 
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/glibmm-2.4/glibmm/uriutils.h:
+
 /usr/include/glibmm-2.4/glibmm/valuearray.h:
 
 /usr/include/glibmm-2.4/glibmm/variantdict.h:
@@ -4713,6 +4649,10 @@ library/Citra.cpp:
 /usr/include/freetype2/freetype/config/mac-support.h:
 
 /usr/include/harfbuzz/hb-version.h:
+
+/usr/include/gtk-3.0/gtk/gtkheaderbar.h:
+
+/usr/lib/x86_64-linux-gnu/giomm-2.4/include/giommconfig.h:
 
 /usr/include/glib-2.0/gio/gio.h:
 
@@ -4762,13 +4702,13 @@ library/Citra.cpp:
 
 /usr/include/glib-2.0/gio/gdbusactiongroup.h:
 
-/usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp:
-
 /usr/include/glib-2.0/gio/gdbusaddress.h:
 
 /usr/include/gtkmm-3.0/gtkmm/appchooserbutton.h:
 
 /usr/include/glib-2.0/gio/gdbusmethodinvocation.h:
+
+/usr/include/glib-2.0/gio/gdbusnamewatching.h:
 
 /usr/include/gdkmm-3.0/gdkmm/window.h:
 
@@ -4804,6 +4744,8 @@ library/Citra.cpp:
 
 /usr/include/glib-2.0/gio/gdbusobjectskeleton.h:
 
+/usr/include/glib-2.0/gio/gdbusproxy.h:
+
 /usr/include/glib-2.0/gio/gdbusutils.h:
 
 /usr/include/glib-2.0/gio/gdtlsclientconnection.h:
@@ -4817,8 +4759,6 @@ library/Citra.cpp:
 /usr/include/linux/types.h:
 
 /usr/include/glib-2.0/gio/gfile.h:
-
-/usr/local/include/opencv4/opencv2/core/bufferpool.hpp:
 
 /usr/include/glib-2.0/gio/gfileattribute.h:
 
@@ -4840,6 +4780,10 @@ library/Citra.cpp:
 
 /usr/include/glib-2.0/gio/gfileoutputstream.h:
 
+/usr/include/linux/close_range.h:
+
+/usr/include/glib-2.0/gio/ginetaddress.h:
+
 /usr/include/glib-2.0/glib/deprecated/gallocator.h:
 
 /usr/include/glib-2.0/gio/ginetaddressmask.h:
@@ -4856,13 +4800,9 @@ library/Citra.cpp:
 
 /usr/include/giomm-2.4/giomm/filenamecompleter.h:
 
-/usr/include/glib-2.0/gio/gsocketaddress.h:
-
 /usr/include/gtkmm-3.0/gtkmm/cellrenderer_generation.h:
 
 /usr/include/gtk-3.0/gtk/gtkrecentchooser.h:
-
-/usr/local/include/opencv4/opencv2/core/types.hpp:
 
 /usr/include/glib-2.0/glib/ghmac.h:
 
@@ -4894,11 +4834,9 @@ library/Citra.cpp:
 
 /usr/include/glib-2.0/gio/gmemoryinputstream.h:
 
+/usr/include/opencv4/opencv2/calib3d/calib3d.hpp:
+
 /usr/include/glib-2.0/gio/gpollableoutputstream.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/glib-2.0/gio/gmemorymonitor.h:
 
 /usr/include/gtkmm-3.0/gtkmm/scale.h:
 
@@ -4920,11 +4858,11 @@ library/Citra.cpp:
 
 /usr/include/glib-2.0/gio/gmountoperation.h:
 
+/usr/include/opencv4/opencv2/dnn/dict.hpp:
+
 /usr/include/gtkmm-3.0/gtkmm/filechoosernative.h:
 
 /usr/include/glib-2.0/glib/gmessages.h:
-
-/usr/local/include/opencv4/opencv2/core/base.hpp:
 
 /usr/include/pango-1.0/pango/pango-fontmap.h:
 
@@ -4970,9 +4908,15 @@ library/Citra.cpp:
 
 /usr/include/glib-2.0/gio/gsimpleactiongroup.h:
 
+/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:
+
 /usr/include/giomm-2.4/giomm/file.h:
 
 /usr/include/glib-2.0/gio/gsimpleiostream.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/glib-2.0/gio/gsimplepermission.h:
 
 /usr/include/giomm-2.4/giomm/dbussubtreevtable.h:
 
@@ -5002,6 +4946,8 @@ library/Citra.cpp:
 
 /usr/include/glib-2.0/gio/gtask.h:
 
+/usr/include/opencv4/opencv2/flann/params.h:
+
 /usr/include/giomm-2.4/giomm/dbusinterface.h:
 
 /usr/include/gtk-3.0/gtk/deprecated/gtkvscale.h:
@@ -5009,8 +4955,6 @@ library/Citra.cpp:
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/gdkmm-3.0/gdkmm/seat.h:
-
-/usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
 
 /usr/include/limits.h:
 
@@ -5037,6 +4981,8 @@ library/Citra.cpp:
 /usr/include/cairo/cairo-ft.h:
 
 /usr/include/glib-2.0/gio/gvolume.h:
+
+/usr/include/opencv4/opencv2/features2d.hpp:
 
 /usr/include/giomm-2.4/giomm/dbuserrorutils.h:
 
@@ -5156,6 +5102,8 @@ library/Citra.cpp:
 
 /usr/include/giomm-2.4/giomm/converterinputstream.h:
 
+/usr/include/opencv4/opencv2/core/vsx_utils.hpp:
+
 /usr/include/cairo/cairo.h:
 
 /usr/include/giomm-2.4/giomm/datainputstream.h:
@@ -5170,6 +5118,10 @@ library/Citra.cpp:
 
 /usr/include/giomm-2.4/giomm/dbuserror.h:
 
+/usr/include/gtk-3.0/gtk/gtkappchooserwidget.h:
+
+/usr/include/giomm-2.4/giomm/dbusmenumodel.h:
+
 /usr/include/gtkmm-3.0/gtkmm/styleprovider.h:
 
 /usr/include/glibmm-2.4/glibmm/ustring.h:
@@ -5179,6 +5131,8 @@ library/Citra.cpp:
 /usr/include/giomm-2.4/giomm/dbusproxy.h:
 
 /usr/include/giomm-2.4/giomm/dbusobjectskeleton.h:
+
+/usr/include/opencv4/opencv2/dnn/version.hpp:
 
 /usr/include/giomm-2.4/giomm/dbusownname.h:
 
@@ -5208,6 +5162,10 @@ library/Citra.cpp:
 
 /usr/include/giomm-2.4/giomm/socketaddress.h:
 
+/usr/include/gtk-3.0/gtk/deprecated/gtkhscale.h:
+
+/usr/include/giomm-2.4/giomm/socketconnectable.h:
+
 /usr/include/giomm-2.4/giomm/socketaddressenumerator.h:
 
 /usr/include/gtkmm-3.0/gtkmm/viewport.h:
@@ -5224,15 +5182,11 @@ library/Citra.cpp:
 
 /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-features.h:
 
-/usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp:
-
 /usr/include/giomm-2.4/giomm/networkmonitor.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/giomm-2.4/giomm/proxyresolver.h:
-
-/usr/local/include/opencv4/opencv2/objdetect.hpp:
 
 /usr/include/giomm-2.4/giomm/resolver.h:
 
@@ -5244,11 +5198,11 @@ library/Citra.cpp:
 
 /usr/include/gtk-3.0/gdk/gdktypes.h:
 
-/usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp:
-
 /usr/include/pangomm-1.4/pangomm/color.h:
 
 /usr/include/giomm-2.4/giomm/simpleactiongroup.h:
+
+/usr/include/opencv4/opencv2/core/operations.hpp:
 
 /usr/include/giomm-2.4/giomm/simpleiostream.h:
 
@@ -5258,9 +5212,21 @@ library/Citra.cpp:
 
 /usr/include/c++/11/bits/stl_set.h:
 
-/usr/include/glib-2.0/glib/gtypes.h:
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
-/usr/include/giomm-2.4/giomm/socketlistener.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/11/bits/stl_multiset.h:
+
+/usr/include/giomm-2.4/giomm/themedicon.h:
+
+/usr/include/gtk-3.0/gtk/deprecated/gtkvseparator.h:
+
+/usr/include/c++/11/fstream:
+
+/usr/include/giomm-2.4/giomm/tlscertificate.h:
+
+/usr/include/gtk-3.0/gdk/gdkdisplay.h:
 
 /usr/include/giomm-2.4/giomm/tlsconnection.h:
 
@@ -5270,15 +5236,11 @@ library/Citra.cpp:
 
 /usr/include/pangomm-1.4/pangomm/glyph.h:
 
-/usr/include/glib-2.0/glib/gpoll.h:
-
-/usr/include/pango-1.0/pango/pango-script.h:
-
-/usr/include/giomm-2.4/giomm/tlspassword.h:
-
 /usr/include/giomm-2.4/giomm/tlsserverconnection.h:
 
 /usr/include/c++/11/bits/gslice_array.h:
+
+/usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp:
 
 /usr/include/c++/11/backward/binders.h:
 
@@ -5289,6 +5251,8 @@ library/Citra.cpp:
 /usr/include/giomm-2.4/giomm/unixinputstream.h:
 
 /usr/include/giomm-2.4/giomm/unixoutputstream.h:
+
+/usr/include/opencv4/opencv2/flann/timer.h:
 
 /usr/include/gtkmm-3.0/gtkmm/calendar.h:
 
@@ -5322,17 +5286,9 @@ library/Citra.cpp:
 
 /usr/include/gtk-3.0/gdk/gdk.h:
 
-/usr/include/glib-2.0/glib/ghash.h:
-
-/usr/include/gtk-3.0/gdk/gdkversionmacros.h:
-
 /usr/include/pango-1.0/pango/pango.h:
 
-/usr/include/pango-1.0/pango/pango-version-macros.h:
-
 /usr/include/pango-1.0/pango/pango-features.h:
-
-/usr/local/include/opencv4/opencv2/objdetect/face.hpp:
 
 /usr/include/harfbuzz/hb.h:
 
@@ -5376,6 +5332,16 @@ library/Citra.cpp:
 
 /usr/include/pango-1.0/pango/pango-gravity.h:
 
+/usr/include/glibmm-2.4/glibmm/class.h:
+
+/usr/include/pango-1.0/pango/pango-matrix.h:
+
+/usr/include/glib-2.0/glib/gpoll.h:
+
+/usr/include/giomm-2.4/giomm/tlspassword.h:
+
+/usr/include/pango-1.0/pango/pango-script.h:
+
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/giomm-2.4/giomm/threadedsocketservice.h:
@@ -5390,6 +5356,8 @@ library/Citra.cpp:
 
 /usr/include/pango-1.0/pango/pango-direction.h:
 
+/usr/include/opencv4/opencv2/core/traits.hpp:
+
 /usr/include/pango-1.0/pango/pango-color.h:
 
 /usr/include/glib-2.0/glib/gstrfuncs.h:
@@ -5398,17 +5366,13 @@ library/Citra.cpp:
 
 /usr/include/pango-1.0/pango/pango-item.h:
 
-/usr/local/include/opencv4/opencv2/flann/general.h:
-
-/usr/local/include/opencv4/opencv2/core/mat.hpp:
+/usr/include/opencv4/opencv2/core/cuda.inl.hpp:
 
 /usr/include/pango-1.0/pango/pango-context.h:
 
 /usr/include/atk-1.0/atk/atkvalue.h:
 
 /usr/include/pangomm-1.4/pangomm/layoutiter.h:
-
-/usr/include/pango-1.0/pango/pango-fontset.h:
 
 /usr/include/pango-1.0/pango/pango-engine.h:
 
@@ -5458,17 +5422,21 @@ library/Citra.cpp:
 
 /usr/include/gtk-3.0/gdk/gdkevents.h:
 
-/usr/include/gtk-3.0/gdk/gdkdevicemanager.h:
-
 /usr/include/gtkmm-3.0/gtkmm/overlay.h:
 
+/usr/include/opencv4/opencv2/core/bufferpool.hpp:
+
 /usr/include/gtk-3.0/gdk/gdkrectangle.h:
+
+/usr/include/opencv4/opencv2/core/cuda.hpp:
 
 /usr/include/gtk-3.0/gdk/gdkcairo.h:
 
 /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-macros.h:
 
 /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-animation.h:
+
+/usr/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
 
 /usr/include/c++/11/backward/auto_ptr.h:
 
@@ -5477,12 +5445,6 @@ library/Citra.cpp:
 /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-loader.h:
 
 /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-enum-types.h:
-
-/usr/include/gtk-3.0/gtk/gtktexttagtable.h:
-
-/usr/include/pango-1.0/pango/pangocairo.h:
-
-/usr/local/include/opencv4/opencv2/core/operations.hpp:
 
 /usr/include/gtk-3.0/gdk/gdkcursor.h:
 
@@ -5540,17 +5502,17 @@ library/Citra.cpp:
 
 /usr/include/freetype2/freetype/fterrors.h:
 
-/usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp:
-
 /usr/include/c++/11/bits/stl_construct.h:
 
 /usr/include/freetype2/freetype/ftmoderr.h:
 
 /usr/include/x86_64-linux-gnu/sys/stat.h:
 
-/usr/local/include/opencv4/opencv2/core/utils/logger.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/statx.h:
+
+/usr/include/opencv4/opencv2/flann/lsh_index.h:
+
+/usr/include/x86_64-linux-gnu/asm/types.h:
 
 /usr/include/asm-generic/int-ll64.h:
 
@@ -5561,6 +5523,8 @@ library/Citra.cpp:
 /usr/include/glib-2.0/gio/gzlibcompressor.h:
 
 /usr/include/pangomm-1.4/pangomm/attriter.h:
+
+/usr/include/opencv4/opencv2/objdetect/face.hpp:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -5582,8 +5546,6 @@ library/Citra.cpp:
 
 /usr/include/gdkmm-3.0/gdkmm/display.h:
 
-/usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h:
-
 /usr/include/gdkmm-3.0/gdkmm/screen.h:
 
 /usr/include/c++/11/bits/allocated_ptr.h:
@@ -5600,7 +5562,7 @@ library/Citra.cpp:
 
 /usr/include/cairomm-1.0/cairomm/context.h:
 
-/usr/local/include/opencv4/opencv2/flann/params.h:
+/usr/include/cairomm-1.0/cairomm/fontface.h:
 
 /usr/include/cairomm-1.0/cairomm/matrix.h:
 
@@ -5650,8 +5612,6 @@ library/Citra.cpp:
 
 /usr/include/pangomm-1.4/pangomm/fontdescription.h:
 
-/usr/include/pangomm-1.4/pangomm/fontset.h:
-
 /usr/include/atk-1.0/atk/atkhyperlink.h:
 
 /usr/include/glib-2.0/gio/gremoteactiongroup.h:
@@ -5665,6 +5625,10 @@ library/Citra.cpp:
 /usr/include/pangomm-1.4/pangomm/types.h:
 
 /usr/include/pangomm-1.4/pangomm/layoutline.h:
+
+/usr/include/glib-2.0/glib/galloca.h:
+
+/usr/include/pangomm-1.4/pangomm/layoutrun.h:
 
 /usr/include/asm-generic/errno.h:
 
@@ -5680,12 +5644,14 @@ library/Citra.cpp:
 
 /usr/include/gtkmm-3.0/gtkmm/object.h:
 
-/usr/local/include/opencv4/opencv2/core/hal/interface.h:
-
 /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:
 
 /usr/include/strings.h:
 
 /usr/include/gtk-3.0/gtk/gtkdialog.h:
 
+/usr/include/opencv4/opencv2/flann/allocator.h:
+
 /usr/include/gtk-3.0/gtk/gtkwidget.h:
+
+/usr/include/gtk-3.0/gtk/gtktypes.h:
