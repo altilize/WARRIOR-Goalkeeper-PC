@@ -41,6 +41,7 @@ struct pcData
 	int KICK_MODE;
 	int RESET_COMPASS;
 	bool RESET_COMPASS_SIGN;
+	bool isLineFollower = false;
 };
 
 struct STM32Data
@@ -58,7 +59,7 @@ struct STM32Data
 	int GRIDY;
 	float XPOS;
 	float YPOS;
-	int linear;
+	bool isLidar;
 };
 
 struct BasestationData

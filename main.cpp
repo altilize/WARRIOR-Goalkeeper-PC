@@ -93,15 +93,6 @@ float b_head;
 int b_head_deg;
 
 bool Catch = false;
-
-// ------------------ Variabel Entrance Kiper --------------------------- //
-bool GK_start = false;
-bool GK_pla = false;
-bool GK_done = false;
-bool GK_done2 = false;
-bool GK_pointplay = false;
-bool GK_kanan = false;
-bool GK_kiri = false;
             
 // ----------------- Variabel Lomba 2024 ------------------------------- //
 bool Koff = false;
@@ -179,7 +170,15 @@ void logWrite(const std::string& logMessage);
 void* thread_citra(void* arg) {
     namedWindow("Kamera Depan", WINDOW_AUTOSIZE);
     namedWindow("Kamera Omni", WINDOW_AUTOSIZE);
-    
+    // ------------ Deklarasi Variabel GK Enrance -------------
+    bool GK_Entrance = false;
+    bool GK_goto02 = false;
+    bool GK_goto82 = false;
+    bool GK_goto80 = false;
+    bool GK_goRight = false;
+    bool GK_goLeft = false;
+    bool GK_idle = false;
+    // ---------------------------------------------------------
 
     while (true) {
         Point center (frame_rotation_omni.cols/2, frame_rotation_omni.rows/2);
@@ -217,57 +216,66 @@ void* thread_citra(void* arg) {
             //  button 1 = entrance kiper
             //  button 2 = set grid
             // --------------------------------------------------------------------
+            
+            // ----------------------- ALGORITMA LIDAR -------------------------
+            
+            printf("%i", mSTM32Data.isLidar);
+            if(mSTM32Data.isLidar == true) {
+                mPcData.isLineFollower = true;
+                // setgrid();
+            }
+            // -----------------------------------------------------------------
             printf("Kompas = %d  Grid X = %d  Grid Y = %d\n", mSTM32Data.KOMPAS, mSTM32Data.GRIDX, mSTM32Data.GRIDY);
+            logWrite("Grid X : " + to_string(mSTM32Data.GRIDX) + "  Grid Y : " + to_string(mSTM32Data.GRIDY) + "  Kompas : " + to_string(mSTM32Data.KOMPAS));
+            if(!GK_Entrance) logWrite("Button Pressed : " + to_string(mSTM32Data.BUTTON));
             if(mSTM32Data.BUTTON == 1) {
-                GK_start = true;
+                GK_Entrance = true;
+                GK_goto02 = false;
+                GK_goto82 = false;
+                GK_goto80 = false;
                 logWrite("MASUK MODE GK ENTRANCE");
             }
-
-            if(GK_start) {
+            mPcData.HANDLER = 0;
+            //  ---------------------------------- Revisi Start -----------------------------
+            if(GK_Entrance) {
                 if(mSTM32Data.GRIDX == 0 && mSTM32Data.GRIDY <= 2) {
-                printf("Majuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu\n");
-                logWrite("Grid X : " + to_string(mSTM32Data.GRIDX) + "  Grid Y : " + to_string(mSTM32Data.GRIDY) + "  STATUS GK_pla : " + to_string(GK_pla));
-                GK_pla = R2CMotion::pindahgrid2(0,2, mSTM32Data,mPcData, 180,150,1);
-                //GK_Awal = R2CMotion::pindahgrid2(0,2, mSTM32Data,mPcData, 180,150,1);
-                } 
-                if(GK_pla){
-                    printf("Maju Selesai OTW 9,2\n");
-                    logWrite("Grid X : " + to_string(mSTM32Data.GRIDX) + "  Grid Y : " + to_string(mSTM32Data.GRIDY) + "  STATUS GK_pointplay : " + to_string(GK_pointplay));
-                    GK_pointplay = R2CMotion::pindahgrid2(9,2,mSTM32Data,mPcData,180,150,1);
+                    logWrite("--- Going to (0,2) ---");
+                    GK_goto02 = R2CMotion::pindahgrid2(0,2, mSTM32Data, mPcData, 180, 150, 1);
                 }
-                if(GK_pointplay){
-                    printf("Selesai 9,2\n");
-                    GK_pla = false;
-                    GK_done = true;
-                }                
-                if(GK_done){
-                    GK_pointplay = false;
-                    printf("OTW 9,0\n");
-                    GK_done2 = R2CMotion::pindahgrid2(9,0,mSTM32Data, mPcData, 180, 150,1);
+                if(GK_goto02) {
+                    logWrite("--- Going to (8,2) ---");
+                    GK_goto82 = R2CMotion::pindahgrid2(8,2, mSTM32Data, mPcData, 180, 150, 1);
                 }
-                if(GK_done2){
-                    GK_done = false;
-                // -------------------------- Belum di Coba --------------------------------------
-                    printf("otw Kanan");
-                    GK_kanan = R2CMotion::pindahgrid2(11,0,mSTM32Data, mPcData, 200,150, 1);
-
-                // ------------------------------------------------------------------------------
-                    // printf("DAH SAMPE");
-                    // GK_done = false;
-                    // GK_start = false; uncomment kalau mau diam setelah sampe gawang
+                if(GK_goto82) {
+                    logWrite("--- Going to (8,0) ---");
+                    GK_goto02 = false; // sudah selesai
+                    GK_goto80 = R2CMotion::pindahgrid2(8,0,mSTM32Data, mPcData, 180, 150, 1);
+                }if(GK_goto80) {
+                    logWrite("--- GK already in position---");
+                    GK_goto82 = false;
+                    GK_goLeft = true;
+                    GK_goRight = false; // pergi ke kanan atau kiri dulu
+                    GK_idle = true;
+                    GK_Entrance = false;
                 }
-                if(GK_kanan) {
-                    GK_done2 = false;
-                    printf(" OTW Kiri");
-                    GK_kiri = R2CMotion::pindahgrid2(7, 0, mSTM32Data, mPcData, 180, 150, 1);
-                     // Start sama Done biarin true
-                }
-                if(GK_kiri) {
-                    printf("IF GK_Kiri");
-                    GK_kanan = false;
-                    GK_done2 = true;
-                }  
+               
             }
+            if(GK_idle) {
+                logWrite("--- GK in idle Mode---");
+                GK_Entrance = false;
+                if(GK_goLeft) {
+                    logWrite("--- GK go to Right---");
+                    GK_goRight = false;
+                    GK_goRight = R2CMotion::pindahgrid2(10,0,mSTM32Data, mPcData, 160, 150, 1);
+                } 
+                if(GK_goRight) {
+                    logWrite("--- GK go to Left---");
+                    GK_goLeft = false;
+                    GK_goLeft = R2CMotion::pindahgrid2(7,0,mSTM32Data, mPcData, 160, 150, 1);
+                }
+            }
+
+
             // ------------------------------ BNN ( Bagian Ngedebug - ngedebug) --------------------
             // ,mSTM32Data.BOLA,siap_nendang,tendangbosq,tespindahgrid,basestationData.skillRobot);
             //printf("Button = %i  Kompas = %i  Grid X = %i  Grid Y = %i \n", mSTM32Data.BUTTON, mSTM32Data.KOMPAS, mSTM32Data.GRIDX, mSTM32Data.GRIDY);
@@ -395,12 +403,12 @@ void* thread_citra(void* arg) {
         if(mSTM32Data.BUTTON == 2){
             // R2CMotion::setgrid(mPcData,1,16,16,90);//roda 4
             R2CMotion::setgrid(mPcData,1,0,0,1);
-            GK_done2 = false;
-            GK_done = false;
-            GK_pla = false;
-            GK_pointplay = false;
-            GK_pointplay = false;
+            GK_Entrance = false;
+            GK_goto02 = false;
+            GK_goto82 = false;
+            GK_goto80 = false;
             // R2CMotion::setgrid(mPcData,0,16,8,0);
+            logWrite("------- Grid Set! -----------------");
             printf("grid set\n");
         }
         else{
@@ -700,69 +708,6 @@ void* sendBasestation(void *add) {
     UDPSend::sendBasestation(senddata);
     } 
     return NULL;
-}
-
-int main() {
-
-    R2CCitra::init();
-    
-    Camera cameraAtas = R2CCamera::loadCameraByPath(KAMERA_omni);
-    Camera cameraDepan = R2CCamera::loadCameraByPath(KAMERA_depan);
-
-    R2CCamera::setParameterCamera(cameraAtas);
-    R2CCamera::setParameterCamera(cameraDepan);
-
-    cap1.open(cameraAtas.index, cv::CAP_V4L2);
-    cap1.set(CAP_PROP_FRAME_WIDTH, 640);
-    cap1.set(CAP_PROP_FRAME_HEIGHT, 480);
-    //cap1.set(CAP_PROP_AUTOFOCUS, 0);
-    cap1.set(CAP_PROP_AUTO_EXPOSURE, 0);
-
-    R2CKomunikasiSTM32::STM32init(USBSTM322);
-    cap2.open(cameraDepan.index, cv::CAP_V4L2);
-    cap2.set(CAP_PROP_FRAME_WIDTH, 640);
-    cap2.set(CAP_PROP_FRAME_HEIGHT, 480);
-    cap2.set(CAP_PROP_AUTOFOCUS, 0);
-    //cap2.set(CAP_PROP_AUTO_EXPOSURE, 1);
-
-    if (!cap1.isOpened()) {
-        cout << "ERROR! Unable to open camera omni!\n" << endl;
-        return -1;
-    }
-
-    if (!cap2.isOpened()) {
-        cout << "ERROR! Unable to open camera depan!\n" << endl;
-        return -1;
-    }
-    pthread_t citra_thread;
-    if (pthread_create(&citra_thread, NULL, thread_citra, NULL) != 0) {
-        cerr << "Error creating citra_thread" << endl;
-        return 1;
-    }
-
-   pthread_t komunikasi_thread;
-   if (pthread_create(&komunikasi_thread, NULL, thread_komunikasi, NULL) != 0) {
-       cerr << "Error creating komunikasi_thread" << endl;
-       return 1;
-   }
-
-    pthread_t receive_thread;
-    if (pthread_create(&receive_thread, NULL, receiveBasestation, NULL) != 0) {
-        cerr << "Error creating receive_thread" << endl;
-        return 1;
-    }
-
-    pthread_t send_thread;
-    if (pthread_create(&send_thread, NULL, sendBasestation, NULL) != 0) {
-        cerr << "Error creating send_thread" << endl;
-        return 1;
-    }
-
-    pthread_join(citra_thread, NULL);
-    pthread_join(send_thread, NULL);
-    pthread_join(komunikasi_thread, NULL);
-    pthread_join(receive_thread, NULL);
-    return 0;
 }
 // ===================== Logging ======================= //
  // ----------- format YYYY-MM-DD ----------- //
@@ -1108,4 +1053,71 @@ void mode_2_play(){
         Catch = false;
         bola_oper = false;
     }
+}
+
+
+
+
+// =================== Main Function ======================== //
+
+int main() {
+    R2CCitra::init();
+    
+    Camera cameraAtas = R2CCamera::loadCameraByPath(KAMERA_omni);
+    Camera cameraDepan = R2CCamera::loadCameraByPath(KAMERA_depan);
+
+    R2CCamera::setParameterCamera(cameraAtas);
+    R2CCamera::setParameterCamera(cameraDepan);
+
+    cap1.open(cameraAtas.index, cv::CAP_V4L2);
+    cap1.set(CAP_PROP_FRAME_WIDTH, 640);
+    cap1.set(CAP_PROP_FRAME_HEIGHT, 480);
+    //cap1.set(CAP_PROP_AUTOFOCUS, 0);
+    cap1.set(CAP_PROP_AUTO_EXPOSURE, 0);
+
+    R2CKomunikasiSTM32::STM32init(USBSTM322);
+    cap2.open(cameraDepan.index, cv::CAP_V4L2);
+    cap2.set(CAP_PROP_FRAME_WIDTH, 640);
+    cap2.set(CAP_PROP_FRAME_HEIGHT, 480);
+    cap2.set(CAP_PROP_AUTOFOCUS, 0);
+    //cap2.set(CAP_PROP_AUTO_EXPOSURE, 1);
+
+    if (!cap1.isOpened()) {
+        cout << "ERROR! Unable to open camera omni!\n" << endl;
+        return -1;
+    }
+
+    if (!cap2.isOpened()) {
+        cout << "ERROR! Unable to open camera depan!\n" << endl;
+        return -1;
+    }
+    pthread_t citra_thread;
+    if (pthread_create(&citra_thread, NULL, thread_citra, NULL) != 0) {
+        cerr << "Error creating citra_thread" << endl;
+        return 1;
+    }
+
+   pthread_t komunikasi_thread;
+   if (pthread_create(&komunikasi_thread, NULL, thread_komunikasi, NULL) != 0) {
+       cerr << "Error creating komunikasi_thread" << endl;
+       return 1;
+   }
+
+    pthread_t receive_thread;
+    if (pthread_create(&receive_thread, NULL, receiveBasestation, NULL) != 0) {
+        cerr << "Error creating receive_thread" << endl;
+        return 1;
+    }
+
+    pthread_t send_thread;
+    if (pthread_create(&send_thread, NULL, sendBasestation, NULL) != 0) {
+        cerr << "Error creating send_thread" << endl;
+        return 1;
+    }
+
+    pthread_join(citra_thread, NULL);
+    pthread_join(send_thread, NULL);
+    pthread_join(komunikasi_thread, NULL);
+    pthread_join(receive_thread, NULL);
+    return 0;
 }

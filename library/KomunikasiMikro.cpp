@@ -36,7 +36,7 @@ int R2CKomunikasiSTM32::sendData(Serial com1, pcData dataPC)
 		dataaaserial[2] = dataPC.GRIDY;
 		dataaaserial[3] = dataPC.RESET_COMPASS;
 		dataaaserial[4] = dataPC.RESET_COMPASS_SIGN;
-		dataaaserial[5] = 0;
+		dataaaserial[5] = dataPC.isLineFollower;
 		dataaaserial[6] = 0;
 		dataaaserial[7] = 0;
 		dataaaserial[8] = 0;
@@ -105,7 +105,7 @@ bool R2CKomunikasiSTM32::parseSTM32Data(STM32Data &sData, const unsigned char *d
 		sData.KOMPAS = data[2];;
 		if (data[1] == 1) sData.KOMPAS *= -1;
 		sData.BUTTON = data[3];
-		sData.linear= data[4];
+		sData.isLidar = data[4] & 0xFF; // sData.isLidar = data[4];
 		sData.IR_MUSUH_2 = data[5];
 		sData.IR_MUSUH_3 = data[6];
 		sData.BOLA  = data[7];

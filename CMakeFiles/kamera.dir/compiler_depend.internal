@@ -3,7 +3,6 @@
 
 CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o
  /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.cpp
- /home/moses/main/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.cpp
  /usr/include/stdc-predef.h
  /usr/include/gtkmm-3.0/gtkmm.h
  /usr/include/glibmm-2.4/glibmm.h
@@ -1576,9 +1575,9 @@ CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o
  /usr/include/gtkmm-3.0/gtkmm/uimanager.h
  /usr/include/gtkmm-3.0/gtkmm/viewport.h
  /usr/include/gtkmm-3.0/gtkmm/volumebutton.h
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/TypeData.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/TypeData.h
  /usr/include/c++/11/iostream
- /home/moses/main/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.h
  /usr/include/opencv4/opencv2/opencv.hpp
  /usr/include/opencv4/opencv2/opencv_modules.hpp
  /usr/include/opencv4/opencv2/core.hpp
@@ -1714,9 +1713,8 @@ CMakeFiles/kamera.dir/gui/KalibrasiKamera.cpp.o
 
 CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o
  /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui/PilihKamera.cpp
- /home/moses/main/WARRIOR-Goalkeeper-PC/gui/PilihKamera.cpp
  /usr/include/stdc-predef.h
- /home/moses/main/WARRIOR-Goalkeeper-PC/gui/PilihKamera.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui/PilihKamera.h
  /usr/include/gtkmm-3.0/gtkmm.h
  /usr/include/glibmm-2.4/glibmm.h
  /usr/lib/x86_64-linux-gnu/glibmm-2.4/include/glibmmconfig.h
@@ -3288,12 +3286,11 @@ CMakeFiles/kamera.dir/gui/PilihKamera.cpp.o
  /usr/include/gtkmm-3.0/gtkmm/uimanager.h
  /usr/include/gtkmm-3.0/gtkmm/viewport.h
  /usr/include/gtkmm-3.0/gtkmm/volumebutton.h
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/TypeData.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/TypeData.h
  /usr/include/c++/11/iostream
 
 CMakeFiles/kamera.dir/kamera.cpp.o
  /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/kamera.cpp
- /home/moses/main/WARRIOR-Goalkeeper-PC/kamera.cpp
  /usr/include/stdc-predef.h
  /usr/include/stdio.h
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
@@ -3590,9 +3587,9 @@ CMakeFiles/kamera.dir/kamera.cpp.o
  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp
  /usr/include/opencv4/opencv2/imgproc.hpp
  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/TypeData.h
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/Camera.h
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/TypeData.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/TypeData.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/Camera.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/TypeData.h
  /usr/include/gtkmm-3.0/gtkmm.h
  /usr/include/glibmm-2.4/glibmm.h
  /usr/lib/x86_64-linux-gnu/glibmm-2.4/include/glibmmconfig.h
@@ -4916,9 +4913,9 @@ CMakeFiles/kamera.dir/kamera.cpp.o
  /usr/include/gtkmm-3.0/gtkmm/uimanager.h
  /usr/include/gtkmm-3.0/gtkmm/viewport.h
  /usr/include/gtkmm-3.0/gtkmm/volumebutton.h
- /home/moses/main/WARRIOR-Goalkeeper-PC/gui/PilihKamera.h
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/TypeData.h
- /home/moses/main/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui/PilihKamera.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/TypeData.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/gui/KalibrasiKamera.h
  /usr/include/opencv4/opencv2/opencv.hpp
  /usr/include/opencv4/opencv2/calib3d.hpp
  /usr/include/opencv4/opencv2/features2d.hpp
@@ -5013,10 +5010,9 @@ CMakeFiles/kamera.dir/kamera.cpp.o
 
 CMakeFiles/kamera.dir/library/Camera.cpp.o
  /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/Camera.cpp
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/Camera.cpp
  /usr/include/stdc-predef.h
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/Camera.h
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/TypeData.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/Camera.h
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/TypeData.h
  /usr/include/c++/11/string
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h

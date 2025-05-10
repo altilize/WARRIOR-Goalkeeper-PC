@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/library/Citra.cpp.o: \
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/Citra.cpp \
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/Citra.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -245,8 +245,8 @@ CMakeFiles/main.dir/library/Citra.cpp.o: \
  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
  /usr/include/c++/11/math.h /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/Citra.h \
- /home/moses/main/WARRIOR-Goalkeeper-PC/library/TypeData.h \
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/Citra.h \
+ /home/moses/main/WARRIOR/WARRIOR-Goalkeeper-PC/library/TypeData.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
